@@ -1,5 +1,9 @@
 package net.earthshine17.earthshine;
 
+import net.earthshine17.earthshine.block.ModBlocks;
+import net.earthshine17.earthshine.item.ModCreativeModeTabs;
+import net.earthshine17.earthshine.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -22,7 +26,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 public class ESMod
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "earthshine";
+    public static final String MOD_ID = "esmod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
@@ -32,6 +36,10 @@ public class ESMod
     {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
@@ -54,6 +62,16 @@ public class ESMod
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
 
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.BISMUTH);
+            event.accept(ModItems.RAW_BISMUTH);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.BISMUTH_BLOCK);
+            event.accept(ModBlocks.BISMUTH_ORE);
+
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

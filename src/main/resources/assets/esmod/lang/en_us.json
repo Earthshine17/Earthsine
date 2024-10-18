@@ -1,0 +1,11 @@
+{
+
+  "item.esmod.bismuth": "Bismuth",
+  "item.esmod.raw_bismuth": "Raw Bismuth",
+
+  "block.esmod.bismuth_block": "Block of Bismuth",
+  "block.esmod.bismuth_ore": "Bismuth Ore",
+
+  "creativetab.esmod.bismuth_items": "Bismuth Items",
+  "creativetab.esmod.bismuth_blocks": "Bismuth Blocks"
+}
