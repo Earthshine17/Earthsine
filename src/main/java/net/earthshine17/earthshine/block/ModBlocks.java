@@ -68,6 +68,9 @@ public class ModBlocks {
     public static final DeferredBlock<Block> LUNARITE_ORE = registerBlock("lunarite_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> RAINBOW_ORE = registerBlock("rainbow_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     /////////////////////// BLOCKS /////////////////////
     public static final DeferredBlock<Block> DREAMSTONE_BLOCK = registerBlock("dreamstone_block",
@@ -77,6 +80,9 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
     public static final DeferredBlock<Block> LUNARITE_BLOCK = registerBlock("lunarite_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> RAINBOW_BLOCK = registerBlock("rainbow_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 

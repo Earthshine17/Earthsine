@@ -51,5 +51,32 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         this.tag(ItemTags.TRIM_TEMPLATES)
                 .add(ModItems.ES_SMITHING_TEMPLATE.get());
+
+
+        ///////////////////// ARMORS /////////////////////
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.RAINBOW_HELMET.get())
+                .add(ModItems.RAINBOW_CHESTPLATE.get())
+                .add(ModItems.RAINBOW_LEGGINGS.get())
+                .add(ModItems.RAINBOW_BOOTS.get());
+
+        //////////////////// TOOLS ////////////////////////
+        tag(ItemTags.SWORDS)
+                .add(ModItems.RAINBOW_SWORD.get());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.RAINBOW_PICKAXE.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.RAINBOW_SHOVEL.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.RAINBOW_AXE.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.RAINBOW_HOE.get());
+
+        /////////////////// SMITHING //////////////////////
+        this.tag(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.RAINBOW_INGOT.get());
+
+        this.tag(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.RAINBOW_SMITHING_TEMPLATE.get());
     }
 }

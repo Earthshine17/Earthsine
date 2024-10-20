@@ -47,6 +47,11 @@ public class ModCreativeModeTabs {
 
 
 
+
+
+
+
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> BISMUTH_BLOCK_TAB = CREATIVE_MODE_TAB.register("bismuth_blocks_tab",
@@ -89,26 +94,48 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ROSIUM_ORE);
                         output.accept(ModBlocks.DREAMSTONE_ORE);
                         output.accept(ModBlocks.LUNARITE_ORE);
+                        output.accept(ModBlocks.RAINBOW_ORE);
 
                         ////////////////// BLOCKS ////////////////////
                         output.accept(ModBlocks.ROSIUM_BLOCK);
                         output.accept(ModBlocks.DREAMSTONE_BLOCK);
                         output.accept(ModBlocks.LUNARITE_BLOCK);
+                        output.accept(ModBlocks.RAINBOW_BLOCK);
 
                         /////////// INGOTS ///////////
                         output.accept(ModItems.DREAMSTONE_INGOT);
                         output.accept(ModItems.ROSIUM_INGOT);
                         output.accept(ModItems.LUNARITE_INGOT);
+                        output.accept(ModItems.RAINBOW_INGOT);
 
                         /////////// RAW MATERIAL ///////////
                         output.accept(ModItems.RAW_DREAMSTONE);
                         output.accept(ModItems.RAW_ROSIUM);
                         output.accept(ModItems.RAW_LUNARITE);
+                        output.accept(ModItems.RAW_RAINBOW);
 
                         /////////// NUGGET ///////////
                         output.accept(ModItems.DREAMSTONE_NUGGET);
                         output.accept(ModItems.ROSIUM_NUGGET);
                         output.accept(ModItems.LUNARITE_NUGGET);
+
+                        //////////////// ARMORS //////////////////
+                        output.accept(ModItems.RAINBOW_CHESTPLATE);
+                        output.accept(ModItems.RAINBOW_BOOTS);
+                        output.accept(ModItems.RAINBOW_LEGGINGS);
+                        output.accept(ModItems.RAINBOW_HELMET);
+                        output.accept(ModItems.RAINBOW_HORSE_ARMOR);
+
+                        /////////////// TOOLS /////////////////////
+                        output.accept(ModItems.RAINBOW_SWORD);
+                        output.accept(ModItems.RAINBOW_PICKAXE);
+                        output.accept(ModItems.RAINBOW_SHOVEL);
+                        output.accept(ModItems.RAINBOW_AXE);
+                        output.accept(ModItems.RAINBOW_HOE);
+                        output.accept(ModItems.RAINBOW_HAMMER);
+
+                        /////////////// SMITHING /////////////////
+                        output.accept(ModItems.RAINBOW_SMITHING_TEMPLATE);
 
 
 

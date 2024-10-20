@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-20T04:03:32.5150541	Loot Tables
+// 1.21.1	2024-10-20T10:07:31.2989589	Loot Tables
 14bd60cdba4099cdb140a1b1535d1373a65390c8 data/esmod/loot_table/blocks/bismuth_block.json
 9b6f60eb7c1dc3bf8fb2876fabe78eeb849981ed data/esmod/loot_table/blocks/bismuth_button.json
 3b11af2b283a7181a6f467e882261ffa09a1ce50 data/esmod/loot_table/blocks/bismuth_deepslate_ore.json
@@ -15,5 +15,7 @@ d610615d3acf63977be3f6a08836392c755da338 data/esmod/loot_table/blocks/dreamstone
 1bc14f78609b3e980b5b8ab76e07e944f2a43476 data/esmod/loot_table/blocks/dreamstone_ore.json
 7227ccf76927508d342e9a55e2968c02db49de3d data/esmod/loot_table/blocks/lunarite_block.json
 919a7c16c5552e50f915188ded2606c04d250747 data/esmod/loot_table/blocks/lunarite_ore.json
+87832a31ad1ba4dad518e59515d2f55fa529b7bf data/esmod/loot_table/blocks/rainbow_block.json
+93ca1f235c2d88a08fd1cd8094629b7d044e4cbb data/esmod/loot_table/blocks/rainbow_ore.json
 4bf6cb606fd80ba50d4c075c2d118ffdceaf99e1 data/esmod/loot_table/blocks/rosium_block.json
 9dd725dcb4e0174a7a847cef7cebaf0255d25c34 data/esmod/loot_table/blocks/rosium_ore.json

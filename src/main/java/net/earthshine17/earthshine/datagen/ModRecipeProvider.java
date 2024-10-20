@@ -75,12 +75,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', ModItems.ROSIUM_INGOT.get())
                 .unlockedBy("has_rosium", has(ModItems.ROSIUM_INGOT)).save(recipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_INGOT.get())
+        /*ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_INGOT.get())
                 .pattern("AAA")
                 .pattern("AAA")
                 .pattern("AAA")
                 .define('A', ModItems.ROSIUM_NUGGET.get())
-                .unlockedBy("has_rosium2", has(ModItems.ROSIUM_NUGGET)).save(recipeOutput);
+                .unlockedBy("has_rosium2", has(ModItems.ROSIUM_NUGGET)).save(recipeOutput);*/
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ROSIUM_INGOT.get(), 9)
                 .requires(ModBlocks.ROSIUM_BLOCK)
@@ -113,6 +113,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DREAMSTONE_INGOT.get(), 9)
                 .requires(ModBlocks.DREAMSTONE_BLOCK)
                 .unlockedBy("has_dreamstone_block", has(ModBlocks.DREAMSTONE_BLOCK)).save(recipeOutput);
+
+        ///RAINBOW
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RAINBOW_BLOCK.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModItems.RAINBOW_INGOT.get())
+                .unlockedBy("has_dreamstone", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAINBOW_INGOT.get(), 9)
+                .requires(ModBlocks.RAINBOW_BLOCK)
+                .unlockedBy("has_dreamstone_block", has(ModBlocks.RAINBOW_BLOCK)).save(recipeOutput);
+
+        ///////////////// SMELTING ///////////////////
+
+        List<ItemLike> RAINBOW_SMELTABLES = List.of(ModItems.RAW_RAINBOW,
+                ModBlocks.RAINBOW_ORE);
+        oreSmelting(recipeOutput, RAINBOW_SMELTABLES, RecipeCategory.MISC, ModItems.RAINBOW_INGOT.get(), 0.25f, 200, "rainbow_ingot");
+        oreBlasting(recipeOutput, RAINBOW_SMELTABLES, RecipeCategory.MISC, ModItems.RAINBOW_INGOT.get(), 0.25f, 100, "rainbow_ingot");
 
 
     }

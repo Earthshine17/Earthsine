@@ -13,11 +13,20 @@ import net.minecraft.world.item.armortrim.TrimPattern;
 import net.neoforged.neoforge.registries.DeferredItem;
 
 public class ModTrimPatterns {
-    public static final ResourceKey<TrimPattern> KAUPEN = ResourceKey.create(Registries.TRIM_PATTERN,
+    public static final ResourceKey<TrimPattern> ES = ResourceKey.create(Registries.TRIM_PATTERN,
             ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, "es"));
+    public static final ResourceKey<TrimPattern> RAINBOW = ResourceKey.create(Registries.TRIM_PATTERN,
+            ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, "rainbow"));
 
     public static void bootstrap(BootstrapContext<TrimPattern> context) {
-        register(context, ModItems.ES_SMITHING_TEMPLATE, KAUPEN);
+        register(context, ModItems.ES_SMITHING_TEMPLATE, ES);
+        register(context, ModItems.RAINBOW_SMITHING_TEMPLATE, RAINBOW);
+
+        //////////////// TRIMS /////////////////////
+        /*public static final ResourceKey<TrimPattern> RAINBOW = ResourceKey.create(Registries.TRIM_PATTERN,
+                ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, "es"));
+        public static void bootstrap(BootstrapContext<TrimPattern> context) {
+            register(context, ModItems.RAINBOW_SMITHING_TEMPLATE, RAINBOW);*/
     }
 
     private static void register(BootstrapContext<TrimPattern> context, DeferredItem<Item> item, ResourceKey<TrimPattern> key) {

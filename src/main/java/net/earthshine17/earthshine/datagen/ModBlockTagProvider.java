@@ -39,14 +39,27 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
                 .remove(ModTags.Blocks.NEEDS_BISMUTH_TOOL);
 
+
+        ////////////////// ORES/BLOCKS //////////////////////
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.ROSIUM_ORE.get())
                 .add(ModBlocks.DREAMSTONE_ORE.get())
                 .add(ModBlocks.LUNARITE_ORE.get())
+                .add(ModBlocks.RAINBOW_ORE.get())
+
                 .add(ModBlocks.LUNARITE_BLOCK.get())
                 .add(ModBlocks.DREAMSTONE_BLOCK.get())
                 .add(ModBlocks.ROSIUM_BLOCK.get())
-        ;
+                .add(ModBlocks.RAINBOW_BLOCK.get());
+
+        /////////////////// TOOLS ////////////////////
+        tag(ModTags.Blocks.NEEDS_RAINBOW_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_RAINBOW_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_RAINBOW_TOOL);
+
 
     }
 }

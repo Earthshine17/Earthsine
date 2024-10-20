@@ -9,4 +9,9 @@ public class ModToolTiers {
     public static final Tier BISMUTH = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_BISMUTH_TOOL,
             1400, 4f, 3f, 28, () -> Ingredient.of(ModItems.BISMUTH));
 
+
+    ////////////////// TOOL MODIFIERS ///////////////////
+    public static final Tier RAINBOW = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_RAINBOW_TOOL,
+            1400, 4f, 3f, 28, () -> Ingredient.of(ModItems.RAINBOW_INGOT));
+
 }

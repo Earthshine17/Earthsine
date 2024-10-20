@@ -25,8 +25,17 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.HELMET, 5);
                 attribute.put(ArmorItem.Type.BODY, 11);
             }), 16, 2f, 0.1f, () -> ModItems.BISMUTH.get());
-    //}), 16, 2f, 0.1f, () -> ModItems.BISMUTH.get());
-    //Ingredient.of(new ItemLike[]{Items.DIAMOND});
+
+    //////////////// ARMOR MATERIALS ////////////////////
+    public static final Holder<ArmorMaterial> RAINBOW_ARMOR_MATERIAL = register("rainbow",
+            Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 5);
+                attribute.put(ArmorItem.Type.LEGGINGS, 7);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 9);
+                attribute.put(ArmorItem.Type.HELMET, 5);
+                attribute.put(ArmorItem.Type.BODY, 11);
+            }), 16, 2f, 0.1f, () -> ModItems.RAINBOW_INGOT.get());
+
 
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,

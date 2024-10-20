@@ -13,6 +13,10 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_BISMUTH_TOOL = createTag("needs_bismuth_tool");
         public static final TagKey<Block> INCORRECT_FOR_BISMUTH_TOOL = createTag("incorrect_for_bismuth_tool");
 
+        //////////////// TOOL MOD TAGE ///////////////////////////
+        public static final TagKey<Block> NEEDS_RAINBOW_TOOL = createTag("needs_rainbow_tool");
+        public static final TagKey<Block> INCORRECT_FOR_RAINBOW_TOOL = createTag("incorrect_for_rainbow_tool");
+
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, name));
         }

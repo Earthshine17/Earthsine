@@ -89,6 +89,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> DREAMSTONE_INGOT = ITEMS.register("dreamstone_ingot",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAINBOW_INGOT = ITEMS.register("rainbow_ingot",
+            () -> new Item(new Item.Properties()));
 
 
     /////////// RAW MATERIAL ///////////
@@ -98,6 +100,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_DREAMSTONE = ITEMS.register("raw_dreamstone",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_RAINBOW = ITEMS.register("raw_rainbow",
+            () -> new Item(new Item.Properties()));
 
     /////////// NUGGET ///////////
     public static final DeferredItem<Item> ROSIUM_NUGGET = ITEMS.register("rosium_nugget",
@@ -106,6 +110,49 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> DREAMSTONE_NUGGET = ITEMS.register("dreamstone_nugget",
             () -> new Item(new Item.Properties()));
+
+    ////////////////// ARMORS ///////////////////////
+    public static final DeferredItem<ArmorItem> RAINBOW_HELMET = ITEMS.register("rainbow_helmet",
+            () -> new ArmorItem(ModArmorMaterials.RAINBOW_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(19))));
+    public static final DeferredItem<ArmorItem> RAINBOW_CHESTPLATE = ITEMS.register("rainbow_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.RAINBOW_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(19))));
+    public static final DeferredItem<ArmorItem> RAINBOW_LEGGINGS = ITEMS.register("rainbow_leggings",
+            () -> new ArmorItem(ModArmorMaterials.RAINBOW_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(19))));
+    public static final DeferredItem<ArmorItem> RAINBOW_BOOTS = ITEMS.register("rainbow_boots",
+            () -> new ArmorItem(ModArmorMaterials.RAINBOW_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(19))));
+    public static final DeferredItem<Item> RAINBOW_HORSE_ARMOR = ITEMS.register("rainbow_horse_armor",
+            () -> new AnimalArmorItem(ModArmorMaterials.RAINBOW_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
+                    false, new Item.Properties().stacksTo(1)));
+
+    ///////////////////// TOOLS //////////////////////////
+
+    public static final DeferredItem<SwordItem> RAINBOW_SWORD = ITEMS.register("rainbow_sword",
+            () -> new SwordItem(ModToolTiers.RAINBOW, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.RAINBOW, 5, -2.4f))));
+    public static final DeferredItem<PickaxeItem> RAINBOW_PICKAXE = ITEMS.register("rainbow_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.RAINBOW, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.RAINBOW, 1.0F, -2.8f))));
+    public static final DeferredItem<ShovelItem> RAINBOW_SHOVEL = ITEMS.register("rainbow_shovel",
+            () -> new ShovelItem(ModToolTiers.RAINBOW, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.RAINBOW, 1.5F, -3.0f))));
+    public static final DeferredItem<AxeItem> RAINBOW_AXE = ITEMS.register("rainbow_axe",
+            () -> new AxeItem(ModToolTiers.RAINBOW, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.RAINBOW, 6.0F, -3.2f))));
+    public static final DeferredItem<HoeItem> RAINBOW_HOE = ITEMS.register("rainbow_hoe",
+            () -> new HoeItem(ModToolTiers.RAINBOW, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.RAINBOW, 0F, -3.0f))));
+
+    public static final DeferredItem<HammerItem> RAINBOW_HAMMER = ITEMS.register("rainbow_hammer",
+            () -> new HammerItem(ModToolTiers.RAINBOW, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.RAINBOW, 7F, -3.5f))));
+
+    ////////////////////////////// SMITHING //////////////////////////////////
+    public static final DeferredItem<Item> RAINBOW_SMITHING_TEMPLATE = ITEMS.register("rainbow_armor_trim_smithing_template",
+            () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, "rainbow")));
 
 
 

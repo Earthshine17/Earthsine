@@ -76,16 +76,36 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ROSIUM_INGOT.get());
         basicItem(ModItems.LUNARITE_INGOT.get());
         basicItem(ModItems.DREAMSTONE_INGOT.get());
+        basicItem(ModItems.RAINBOW_INGOT.get());
 
         //////////////////// RAW /////////////////////
         basicItem(ModItems.RAW_ROSIUM.get());
         basicItem(ModItems.RAW_LUNARITE.get());
         basicItem(ModItems.RAW_DREAMSTONE.get());
+        basicItem(ModItems.RAW_RAINBOW.get());
 
         //////////////////// NUGGETS /////////////////////.
         basicItem(ModItems.ROSIUM_NUGGET.get());
         basicItem(ModItems.LUNARITE_NUGGET.get());
         basicItem(ModItems.DREAMSTONE_NUGGET.get());
+
+        /////////////////// ARMORS ///////////////////////
+        trimmedArmorItem(ModItems.RAINBOW_HELMET);
+        trimmedArmorItem(ModItems.RAINBOW_CHESTPLATE);
+        trimmedArmorItem(ModItems.RAINBOW_LEGGINGS);
+        trimmedArmorItem(ModItems.RAINBOW_BOOTS);
+        basicItem(ModItems.RAINBOW_HORSE_ARMOR.get());
+
+        ////////////////// TOOLS ///////////////////////////
+        handheldItem(ModItems.RAINBOW_SWORD);
+        handheldItem(ModItems.RAINBOW_PICKAXE);
+        handheldItem(ModItems.RAINBOW_SHOVEL);
+        handheldItem(ModItems.RAINBOW_AXE);
+        handheldItem(ModItems.RAINBOW_HOE);
+        handheldItem(ModItems.RAINBOW_HAMMER);
+
+        //////////////// SMITHING ///////////////
+        basicItem(ModItems.RAINBOW_SMITHING_TEMPLATE.get());
     }
 
     // Shoutout to El_Redstoniano for making this

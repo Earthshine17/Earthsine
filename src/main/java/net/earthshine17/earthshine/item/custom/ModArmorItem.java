@@ -23,6 +23,7 @@ public class ModArmorItem extends ArmorItem {
                                     new MobEffectInstance(MobEffects.GLOWING, 200, 1, false, false)))
                     .build();
 
+
     public ModArmorItem(Holder<ArmorMaterial> material, Type type, Properties properties) {
         super(material, type, properties);
     }

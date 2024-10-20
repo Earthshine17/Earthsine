@@ -57,11 +57,14 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createOreDrop(ModBlocks.ROSIUM_ORE.get(), ModItems.RAW_ROSIUM.get()));
         add(ModBlocks.LUNARITE_ORE.get(),
                 block -> createOreDrop(ModBlocks.LUNARITE_ORE.get(), ModItems.RAW_LUNARITE.get()));
+        add(ModBlocks.RAINBOW_ORE.get(),
+                block -> createOreDrop(ModBlocks.RAINBOW_ORE.get(), ModItems.RAW_RAINBOW.get()));
 
         //////////////////// BLOCKS ////////////////////
         dropSelf(ModBlocks.DREAMSTONE_BLOCK.get());
         dropSelf(ModBlocks.ROSIUM_BLOCK.get());
         dropSelf(ModBlocks.LUNARITE_BLOCK.get());
+        dropSelf(ModBlocks.RAINBOW_BLOCK.get());
 
     }
 

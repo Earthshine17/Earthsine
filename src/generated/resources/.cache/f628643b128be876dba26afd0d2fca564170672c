@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-19T21:06:54.2692965	Block States: esmod
+// 1.21.1	2024-10-20T10:05:15.5991757	Block States: esmod
 e8c976ad5bf6452e6be848cca5d0e3a11028c791 assets/esmod/blockstates/bismuth_block.json
 33c6ac9f05104b89833d38e036e201908c2739f9 assets/esmod/blockstates/bismuth_button.json
 12f2d2b846e14c6e310467b1efc74b728d7bce1b assets/esmod/blockstates/bismuth_deepslate_ore.json
@@ -16,6 +16,8 @@ e0e74a75aa7ab9eae14408848a1ecb2bca3fff71 assets/esmod/blockstates/bismuth_wall.j
 1d7cecf6bfc867b54798194e43612d39daa9b7d9 assets/esmod/blockstates/lunarite_block.json
 69cdfe00d5bab299199ad13ba942c3162a8d85f3 assets/esmod/blockstates/lunarite_ore.json
 0b75581a34b13ec67eed02a32373ddb6dd063d8c assets/esmod/blockstates/magic_block.json
+35602919ebe62802767e25d4bff0ccf06db63c00 assets/esmod/blockstates/rainbow_block.json
+bab6c659ce4a3e03746ee33b28c71ec8080185b7 assets/esmod/blockstates/rainbow_ore.json
 99d79a569cb24cadb25f53a02ec29fb99d3f9b05 assets/esmod/blockstates/rosium_block.json
 30f64126c153624dc69da5e751d16114d237f01d assets/esmod/blockstates/rosium_ore.json
 4341de1b03ec5383dd7b2fbde7b32500bac88797 assets/esmod/models/block/bismuth_block.json
@@ -55,6 +57,8 @@ b4632b41d8b74d82217ad87242cd0462d3c0a8a3 assets/esmod/models/block/bismuth_wall_
 39deb3973dfc255be08f56567daf058d66ccc3d8 assets/esmod/models/block/lunarite_block.json
 e016f79f8651ae722b7b33963bc9aa46ddea98b8 assets/esmod/models/block/lunarite_ore.json
 a704fc58d053a85dfde23f49c0892625fba7a151 assets/esmod/models/block/magic_block.json
+409960f3477db334af8a48f48bee8f5e83aa5db4 assets/esmod/models/block/rainbow_block.json
+26a865baa6183ef7c370a22efea6983be07a9591 assets/esmod/models/block/rainbow_ore.json
 a539f1a38be2a3fbc15c090574795aca96cc87b8 assets/esmod/models/block/rosium_block.json
 9a077c8d383ae98fafb4518dd334af4eebd49599 assets/esmod/models/block/rosium_ore.json
 75c254f4625b0cb1e981febec2172c14657879e4 assets/esmod/models/item/bismuth_block.json
@@ -70,5 +74,7 @@ c55c350ae0629e9814c7d6a3b5fe995d9e01b133 assets/esmod/models/item/dreamstone_ore
 137e28661cd74c51ba5251df73dcc6e82430c3ee assets/esmod/models/item/lunarite_block.json
 a4b1cf9dd0c3c6375936baab6735596cf26c5c94 assets/esmod/models/item/lunarite_ore.json
 5016aaa98115d2b52b3b17a4d8fcaa88eea5083c assets/esmod/models/item/magic_block.json
+89db3c0bf19ca0b47052a7c6af4737c74c9c0757 assets/esmod/models/item/rainbow_block.json
+d64640dbf4c5f0612f0f3f05208ff46b86b7476f assets/esmod/models/item/rainbow_ore.json
 33426c82ce097ad5b53098e2173e44e87aa68555 assets/esmod/models/item/rosium_block.json
 6831d7d86b46a9562032c34302662fc933627528 assets/esmod/models/item/rosium_ore.json
