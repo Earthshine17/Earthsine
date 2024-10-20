@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "esmod:block/bismuth_block",
+    "side": "esmod:block/bismuth_block",
+    "top": "esmod:block/bismuth_block"
+  }
+}

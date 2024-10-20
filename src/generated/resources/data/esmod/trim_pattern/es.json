@@ -1,0 +1,8 @@
+{
+  "asset_id": "esmod:es",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.esmod.es"
+  },
+  "template_item": "esmod:es_armor_trim_smithing_template"
+}

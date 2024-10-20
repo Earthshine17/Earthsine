@@ -1,11 +1,59 @@
 {
 
+  "block.esmod.rosium_ore": "Rosium Ore",
+  "block.esmod.dreamstone_ore": "Dreamstone Ore",
+  "block.esmod.lunarite_ore": "Lunarite Ore",
+
+
+
   "item.esmod.bismuth": "Bismuth",
   "item.esmod.raw_bismuth": "Raw Bismuth",
+  "item.esmod.chisel": "Chisel",
+
+  "item.esmod.radish": "Radish",
+  "item.esmod.frostfire_ice": "Frostfire Ice",
+  "item.esmod.starlight_ashes": "Starlight Ashes",
+
+  "item.esmod.bismuth_sword": "Bismuth Sword",
+  "item.esmod.bismuth_pickaxe": "Bismuth Pickaxe",
+  "item.esmod.bismuth_shovel": "Bismuth Shovel",
+  "item.esmod.bismuth_axe": "Bismuth Axe",
+  "item.esmod.bismuth_hoe": "Bismuth Hoe",
+
+  "item.esmod.bismuth_helmet": "Bismuth Helmet",
+  "item.esmod.bismuth_chestplate": "Bismuth Chestplate",
+  "item.esmod.bismuth_leggings": "Bismuth Leggings",
+  "item.esmod.bismuth_boots": "Bismuth Boots",
+
+  "item.esmod.bismuth_hammer": "Bismuth Hammer",
+
+  "item.esmod.bismuth_horse_armor": "Bismuth Horse Armor",
+  "item.esmod.es_armor_trim_smithing_template": "ES Trim Template",
 
   "block.esmod.bismuth_block": "Block of Bismuth",
   "block.esmod.bismuth_ore": "Bismuth Ore",
+  "block.esmod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
+
+  "block.esmod.bismuth_stairs": "Bismuth Stairs",
+  "block.esmod.bismuth_slab": "Bismuth Slab",
+
+  "block.esmod.bismuth_button": "Bismuth Button",
+  "block.esmod.bismuth_pressure_plate": "Bismuth Pressure Plate",
+
+  "block.esmod.bismuth_fence": "Bismuth Fence",
+  "block.esmod.bismuth_fence_gate": "Bismuth Fence Gate",
+  "block.esmod.bismuth_wall": "Bismuth Wall",
+
+  "block.esmod.bismuth_door": "Bismuth Door",
+  "block.esmod.bismuth_trapdoor": "Bismuth Trapdoor",
+
+  "block.esmod.magic_block": "Magic Block",
 
   "creativetab.esmod.bismuth_items": "Bismuth Items",
-  "creativetab.esmod.bismuth_blocks": "Bismuth Blocks"
+  "creativetab.esmod.bismuth_blocks": "Bismuth Blocks",
+
+  "tooltip.esmod.magic_block.tooltip": "This Block is §9Magical§r",
+  "tooltip.esmod.chisel.shift_down": "Cheats blocks",
+  "tooltip.esmod.chisel": "Hold Down Shift",
+  "tooltip.esmod.radish.tooltip": "This is yummy"
 }
