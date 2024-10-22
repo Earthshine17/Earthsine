@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "esmod:item/lunarite_horse_armor"
+  }
+}

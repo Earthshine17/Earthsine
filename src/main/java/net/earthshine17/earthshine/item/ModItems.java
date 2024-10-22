@@ -112,6 +112,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     ////////////////// ARMORS ///////////////////////
+    ////RAINBOW
     public static final DeferredItem<ArmorItem> RAINBOW_HELMET = ITEMS.register("rainbow_helmet",
             () -> new ArmorItem(ModArmorMaterials.RAINBOW_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(19))));
@@ -128,8 +129,59 @@ public class ModItems {
             () -> new AnimalArmorItem(ModArmorMaterials.RAINBOW_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
                     false, new Item.Properties().stacksTo(1)));
 
-    ///////////////////// TOOLS //////////////////////////
+    /////ROSIUM
+    public static final DeferredItem<ArmorItem> ROSIUM_HELMET = ITEMS.register("rosium_helmet",
+            () -> new ArmorItem(ModArmorMaterials.ROSIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(19))));
+    public static final DeferredItem<ArmorItem> ROSIUM_CHESTPLATE = ITEMS.register("rosium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.ROSIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(19))));
+    public static final DeferredItem<ArmorItem> ROSIUM_LEGGINGS = ITEMS.register("rosium_leggings",
+            () -> new ArmorItem(ModArmorMaterials.ROSIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(19))));
+    public static final DeferredItem<ArmorItem> ROSIUM_BOOTS = ITEMS.register("rosium_boots",
+            () -> new ArmorItem(ModArmorMaterials.ROSIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(19))));
+    public static final DeferredItem<Item> ROSIUM_HORSE_ARMOR = ITEMS.register("rosium_horse_armor",
+            () -> new AnimalArmorItem(ModArmorMaterials.ROSIUM_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
+                    false, new Item.Properties().stacksTo(1)));
 
+    /////LUNARITE
+    public static final DeferredItem<ArmorItem> LUNARITE_HELMET = ITEMS.register("lunarite_helmet",
+            () -> new ArmorItem(ModArmorMaterials.LUNARITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(19))));
+    public static final DeferredItem<ArmorItem> LUNARITE_CHESTPLATE = ITEMS.register("lunarite_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.LUNARITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(19))));
+    public static final DeferredItem<ArmorItem> LUNARITE_LEGGINGS = ITEMS.register("lunarite_leggings",
+            () -> new ArmorItem(ModArmorMaterials.LUNARITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(19))));
+    public static final DeferredItem<ArmorItem> LUNARITE_BOOTS = ITEMS.register("lunarite_boots",
+            () -> new ArmorItem(ModArmorMaterials.LUNARITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(19))));
+    public static final DeferredItem<Item> LUNARITE_HORSE_ARMOR = ITEMS.register("lunarite_horse_armor",
+            () -> new AnimalArmorItem(ModArmorMaterials.LUNARITE_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
+                    false, new Item.Properties().stacksTo(1)));
+
+    /////DREAMSTONE
+    public static final DeferredItem<ArmorItem> DREAMSTONE_HELMET = ITEMS.register("dreamstone_helmet",
+            () -> new ArmorItem(ModArmorMaterials.DREAMSTONE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(19))));
+    public static final DeferredItem<ArmorItem> DREAMSTONE_CHESTPLATE = ITEMS.register("dreamstone_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.DREAMSTONE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(19))));
+    public static final DeferredItem<ArmorItem> DREAMSTONE_LEGGINGS = ITEMS.register("dreamstone_leggings",
+            () -> new ArmorItem(ModArmorMaterials.DREAMSTONE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(19))));
+    public static final DeferredItem<ArmorItem> DREAMSTONE_BOOTS = ITEMS.register("dreamstone_boots",
+            () -> new ArmorItem(ModArmorMaterials.DREAMSTONE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(19))));
+    public static final DeferredItem<Item> DREAMSTONE_HORSE_ARMOR = ITEMS.register("dreamstone_horse_armor",
+            () -> new AnimalArmorItem(ModArmorMaterials.DREAMSTONE_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
+                    false, new Item.Properties().stacksTo(1)));
+
+    ///////////////////// TOOLS //////////////////////////
+    //RAINBOW
     public static final DeferredItem<SwordItem> RAINBOW_SWORD = ITEMS.register("rainbow_sword",
             () -> new SwordItem(ModToolTiers.RAINBOW, new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTiers.RAINBOW, 5, -2.4f))));
@@ -149,6 +201,69 @@ public class ModItems {
     public static final DeferredItem<HammerItem> RAINBOW_HAMMER = ITEMS.register("rainbow_hammer",
             () -> new HammerItem(ModToolTiers.RAINBOW, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.RAINBOW, 7F, -3.5f))));
+
+    //ROSIUM
+    public static final DeferredItem<SwordItem> ROSIUM_SWORD = ITEMS.register("rosium_sword",
+            () -> new SwordItem(ModToolTiers.ROSIUM, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ROSIUM, 5, -2.4f))));
+    public static final DeferredItem<PickaxeItem> ROSIUM_PICKAXE = ITEMS.register("rosium_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ROSIUM, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ROSIUM, 1.0F, -2.8f))));
+    public static final DeferredItem<ShovelItem> ROSIUM_SHOVEL = ITEMS.register("rosium_shovel",
+            () -> new ShovelItem(ModToolTiers.ROSIUM, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.ROSIUM, 1.5F, -3.0f))));
+    public static final DeferredItem<AxeItem> ROSIUM_AXE = ITEMS.register("rosium_axe",
+            () -> new AxeItem(ModToolTiers.ROSIUM, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.ROSIUM, 6.0F, -3.2f))));
+    public static final DeferredItem<HoeItem> ROSIUM_HOE = ITEMS.register("rosium_hoe",
+            () -> new HoeItem(ModToolTiers.ROSIUM, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.ROSIUM, 0F, -3.0f))));
+
+    public static final DeferredItem<HammerItem> ROSIUM_HAMMER = ITEMS.register("rosium_hammer",
+            () -> new HammerItem(ModToolTiers.ROSIUM, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ROSIUM, 7F, -3.5f))));
+
+    //LUNARITE
+    public static final DeferredItem<SwordItem> LUNARITE_SWORD = ITEMS.register("lunarite_sword",
+            () -> new SwordItem(ModToolTiers.LUNARITE, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.LUNARITE, 5, -2.4f))));
+    public static final DeferredItem<PickaxeItem> LUNARITE_PICKAXE = ITEMS.register("lunarite_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.LUNARITE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.LUNARITE, 1.0F, -2.8f))));
+    public static final DeferredItem<ShovelItem> LUNARITE_SHOVEL = ITEMS.register("lunarite_shovel",
+            () -> new ShovelItem(ModToolTiers.LUNARITE, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.LUNARITE, 1.5F, -3.0f))));
+    public static final DeferredItem<AxeItem> LUNARITE_AXE = ITEMS.register("lunarite_axe",
+            () -> new AxeItem(ModToolTiers.LUNARITE, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.LUNARITE, 6.0F, -3.2f))));
+    public static final DeferredItem<HoeItem> LUNARITE_HOE = ITEMS.register("lunarite_hoe",
+            () -> new HoeItem(ModToolTiers.LUNARITE, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.LUNARITE, 0F, -3.0f))));
+
+    public static final DeferredItem<HammerItem> LUNARITE_HAMMER = ITEMS.register("lunarite_hammer",
+            () -> new HammerItem(ModToolTiers.LUNARITE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.LUNARITE, 7F, -3.5f))));
+
+    //DREAMSTONE
+    public static final DeferredItem<SwordItem> DREAMSTONE_SWORD = ITEMS.register("dreamstone_sword",
+            () -> new SwordItem(ModToolTiers.DREAMSTONE, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.DREAMSTONE, 5, -2.4f))));
+    public static final DeferredItem<PickaxeItem> DREAMSTONE_PICKAXE = ITEMS.register("dreamstone_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.DREAMSTONE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.DREAMSTONE, 1.0F, -2.8f))));
+    public static final DeferredItem<ShovelItem> DREAMSTONE_SHOVEL = ITEMS.register("dreamstone_shovel",
+            () -> new ShovelItem(ModToolTiers.DREAMSTONE, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.DREAMSTONE, 1.5F, -3.0f))));
+    public static final DeferredItem<AxeItem> DREAMSTONE_AXE = ITEMS.register("dreamstone_axe",
+            () -> new AxeItem(ModToolTiers.DREAMSTONE, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.DREAMSTONE, 6.0F, -3.2f))));
+    public static final DeferredItem<HoeItem> DREAMSTONE_HOE = ITEMS.register("dreamstone_hoe",
+            () -> new HoeItem(ModToolTiers.DREAMSTONE, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.DREAMSTONE, 0F, -3.0f))));
+
+    public static final DeferredItem<HammerItem> DREAMSTONE_HAMMER = ITEMS.register("dreamstone_hammer",
+            () -> new HammerItem(ModToolTiers.DREAMSTONE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.DREAMSTONE, 7F, -3.5f))));
 
     ////////////////////////////// SMITHING //////////////////////////////////
     public static final DeferredItem<Item> RAINBOW_SMITHING_TEMPLATE = ITEMS.register("rainbow_armor_trim_smithing_template",

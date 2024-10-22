@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "rainbow_ingot",
+  "ingredient": {
+    "item": "esmod:raw_rainbow"
+  },
+  "result": {
+    "count": 1,
+    "id": "esmod:rainbow_ingot"
+  }
+}

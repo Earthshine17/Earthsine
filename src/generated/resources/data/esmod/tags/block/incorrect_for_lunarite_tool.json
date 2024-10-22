@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "#esmod:needs_lunarite_tool"
+  ],
+  "values": [
+    "#minecraft:incorrect_for_iron_tool"
+  ]
+}

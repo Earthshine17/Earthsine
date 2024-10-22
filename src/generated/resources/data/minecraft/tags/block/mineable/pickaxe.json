@@ -1,0 +1,15 @@
+{
+  "values": [
+    "esmod:bismuth_block",
+    "esmod:bismuth_ore",
+    "esmod:bismuth_deepslate_ore",
+    "esmod:rosium_ore",
+    "esmod:dreamstone_ore",
+    "esmod:lunarite_ore",
+    "esmod:rainbow_ore",
+    "esmod:lunarite_block",
+    "esmod:dreamstone_block",
+    "esmod:rosium_block",
+    "esmod:rainbow_block"
+  ]
+}

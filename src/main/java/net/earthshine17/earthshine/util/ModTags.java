@@ -17,6 +17,15 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_RAINBOW_TOOL = createTag("needs_rainbow_tool");
         public static final TagKey<Block> INCORRECT_FOR_RAINBOW_TOOL = createTag("incorrect_for_rainbow_tool");
 
+        public static final TagKey<Block> NEEDS_ROSIUM_TOOL = createTag("needs_rosium_tool");
+        public static final TagKey<Block> INCORRECT_FOR_ROSIUM_TOOL = createTag("incorrect_for_rosium_tool");
+
+        public static final TagKey<Block> NEEDS_LUNARITE_TOOL = createTag("needs_lunarite_tool");
+        public static final TagKey<Block> INCORRECT_FOR_LUNARITE_TOOL = createTag("incorrect_for_lunarite_tool");
+
+        public static final TagKey<Block> NEEDS_DREAMSTONE_TOOL = createTag("needs_dreamstone_tool");
+        public static final TagKey<Block> INCORRECT_FOR_DREAMSTONE_TOOL = createTag("incorrect_for_dreamstone_tool");
+
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, name));
         }

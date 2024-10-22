@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "esmod:block/bismuth_slab"
+    },
+    "type=double": {
+      "model": "esmod:block/bismuth_block"
+    },
+    "type=top": {
+      "model": "esmod:block/bismuth_slab_top"
+    }
+  }
+}

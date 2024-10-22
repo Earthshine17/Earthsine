@@ -55,10 +55,27 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         /////////////////// TOOLS ////////////////////
         tag(ModTags.Blocks.NEEDS_RAINBOW_TOOL)
                 .addTag(BlockTags.NEEDS_IRON_TOOL);
-
         tag(ModTags.Blocks.INCORRECT_FOR_RAINBOW_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
                 .remove(ModTags.Blocks.NEEDS_RAINBOW_TOOL);
+
+        tag(ModTags.Blocks.NEEDS_ROSIUM_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        tag(ModTags.Blocks.INCORRECT_FOR_ROSIUM_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_ROSIUM_TOOL);
+
+        tag(ModTags.Blocks.NEEDS_LUNARITE_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        tag(ModTags.Blocks.INCORRECT_FOR_LUNARITE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_LUNARITE_TOOL);
+
+        tag(ModTags.Blocks.NEEDS_DREAMSTONE_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        tag(ModTags.Blocks.INCORRECT_FOR_DREAMSTONE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_DREAMSTONE_TOOL);
 
 
     }

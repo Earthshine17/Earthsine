@@ -60,6 +60,24 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.RAINBOW_LEGGINGS.get())
                 .add(ModItems.RAINBOW_BOOTS.get());
 
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.ROSIUM_HELMET.get())
+                .add(ModItems.ROSIUM_CHESTPLATE.get())
+                .add(ModItems.ROSIUM_LEGGINGS.get())
+                .add(ModItems.ROSIUM_BOOTS.get());
+
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.LUNARITE_HELMET.get())
+                .add(ModItems.LUNARITE_CHESTPLATE.get())
+                .add(ModItems.LUNARITE_LEGGINGS.get())
+                .add(ModItems.LUNARITE_BOOTS.get());
+
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.DREAMSTONE_HELMET.get())
+                .add(ModItems.DREAMSTONE_CHESTPLATE.get())
+                .add(ModItems.DREAMSTONE_LEGGINGS.get())
+                .add(ModItems.DREAMSTONE_BOOTS.get());
+
         //////////////////// TOOLS ////////////////////////
         tag(ItemTags.SWORDS)
                 .add(ModItems.RAINBOW_SWORD.get());
@@ -71,6 +89,39 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.RAINBOW_AXE.get());
         tag(ItemTags.HOES)
                 .add(ModItems.RAINBOW_HOE.get());
+
+        tag(ItemTags.SWORDS)
+                .add(ModItems.ROSIUM_SWORD.get());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.ROSIUM_PICKAXE.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.ROSIUM_SHOVEL.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.ROSIUM_AXE.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.ROSIUM_HOE.get());
+
+        tag(ItemTags.SWORDS)
+                .add(ModItems.LUNARITE_SWORD.get());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.LUNARITE_PICKAXE.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.LUNARITE_SHOVEL.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.LUNARITE_AXE.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.LUNARITE_HOE.get());
+
+        tag(ItemTags.SWORDS)
+                .add(ModItems.DREAMSTONE_SWORD.get());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.DREAMSTONE_PICKAXE.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.DREAMSTONE_SHOVEL.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.DREAMSTONE_AXE.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.DREAMSTONE_HOE.get());
 
         /////////////////// SMITHING //////////////////////
         this.tag(ItemTags.TRIM_MATERIALS)

@@ -1,8 +1,14 @@
-// 1.21.1	2024-10-20T11:20:06.121532	Tags for minecraft:block mod id esmod
+// 1.21.1	2024-10-20T18:48:06.1472886	Tags for minecraft:block mod id esmod
 d5ae7921faee328df0cd50b58c724bce296874af data/esmod/tags/block/incorrect_for_bismuth_tool.json
+5a55ee4585eeb02cef50c6c2cf27b0f0619d5185 data/esmod/tags/block/incorrect_for_dreamstone_tool.json
+abb444fac3dc844190bd336fda47adc33c7ce560 data/esmod/tags/block/incorrect_for_lunarite_tool.json
 b3249a711d9b1d6ab195b6c48f2f7d97fc517684 data/esmod/tags/block/incorrect_for_rainbow_tool.json
+eb1cc7dc225cdf0808faa653d500bd0deda199b5 data/esmod/tags/block/incorrect_for_rosium_tool.json
 32b13946c4cd1f944b029659ccce5fcb2adad4ff data/esmod/tags/block/needs_bismuth_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data/esmod/tags/block/needs_dreamstone_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data/esmod/tags/block/needs_lunarite_tool.json
 32b13946c4cd1f944b029659ccce5fcb2adad4ff data/esmod/tags/block/needs_rainbow_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data/esmod/tags/block/needs_rosium_tool.json
 58803d96340a194b8fecc00190fc74b7677fd553 data/minecraft/tags/block/fences.json
 a6a77fd0c5c0063c3d87d2649749dfbccfdbeded data/minecraft/tags/block/fence_gates.json
 d79a193883efd5a5495ca3b3edc900b5cfbc3ab6 data/minecraft/tags/block/mineable/pickaxe.json

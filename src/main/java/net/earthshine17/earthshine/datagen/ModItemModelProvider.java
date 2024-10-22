@@ -96,6 +96,24 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.RAINBOW_BOOTS);
         basicItem(ModItems.RAINBOW_HORSE_ARMOR.get());
 
+        trimmedArmorItem(ModItems.ROSIUM_HELMET);
+        trimmedArmorItem(ModItems.ROSIUM_CHESTPLATE);
+        trimmedArmorItem(ModItems.ROSIUM_LEGGINGS);
+        trimmedArmorItem(ModItems.ROSIUM_BOOTS);
+        basicItem(ModItems.ROSIUM_HORSE_ARMOR.get());
+
+        trimmedArmorItem(ModItems.LUNARITE_HELMET);
+        trimmedArmorItem(ModItems.LUNARITE_CHESTPLATE);
+        trimmedArmorItem(ModItems.LUNARITE_LEGGINGS);
+        trimmedArmorItem(ModItems.LUNARITE_BOOTS);
+        basicItem(ModItems.LUNARITE_HORSE_ARMOR.get());
+
+        trimmedArmorItem(ModItems.DREAMSTONE_HELMET);
+        trimmedArmorItem(ModItems.DREAMSTONE_CHESTPLATE);
+        trimmedArmorItem(ModItems.DREAMSTONE_LEGGINGS);
+        trimmedArmorItem(ModItems.DREAMSTONE_BOOTS);
+        basicItem(ModItems.DREAMSTONE_HORSE_ARMOR.get());
+
         ////////////////// TOOLS ///////////////////////////
         handheldItem(ModItems.RAINBOW_SWORD);
         handheldItem(ModItems.RAINBOW_PICKAXE);
@@ -103,6 +121,27 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.RAINBOW_AXE);
         handheldItem(ModItems.RAINBOW_HOE);
         handheldItem(ModItems.RAINBOW_HAMMER);
+
+        handheldItem(ModItems.ROSIUM_SWORD);
+        handheldItem(ModItems.ROSIUM_PICKAXE);
+        handheldItem(ModItems.ROSIUM_SHOVEL);
+        handheldItem(ModItems.ROSIUM_AXE);
+        handheldItem(ModItems.ROSIUM_HOE);
+        handheldItem(ModItems.ROSIUM_HAMMER);
+
+        handheldItem(ModItems.LUNARITE_SWORD);
+        handheldItem(ModItems.LUNARITE_PICKAXE);
+        handheldItem(ModItems.LUNARITE_SHOVEL);
+        handheldItem(ModItems.LUNARITE_AXE);
+        handheldItem(ModItems.LUNARITE_HOE);
+        handheldItem(ModItems.LUNARITE_HAMMER);
+
+        handheldItem(ModItems.DREAMSTONE_SWORD);
+        handheldItem(ModItems.DREAMSTONE_PICKAXE);
+        handheldItem(ModItems.DREAMSTONE_SHOVEL);
+        handheldItem(ModItems.DREAMSTONE_AXE);
+        handheldItem(ModItems.DREAMSTONE_HOE);
+        handheldItem(ModItems.DREAMSTONE_HAMMER);
 
         //////////////// SMITHING ///////////////
         basicItem(ModItems.RAINBOW_SMITHING_TEMPLATE.get());

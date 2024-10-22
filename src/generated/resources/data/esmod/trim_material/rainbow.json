@@ -1,0 +1,9 @@
+{
+  "asset_name": "rainbow",
+  "description": {
+    "color": "#031CFC",
+    "translate": "trim_material.esmod.rainbow"
+  },
+  "ingredient": "esmod:rainbow_ingot",
+  "item_model_index": 0.5
+}

@@ -126,6 +126,24 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAINBOW_HELMET);
                         output.accept(ModItems.RAINBOW_HORSE_ARMOR);
 
+                        output.accept(ModItems.ROSIUM_CHESTPLATE);
+                        output.accept(ModItems.ROSIUM_BOOTS);
+                        output.accept(ModItems.ROSIUM_LEGGINGS);
+                        output.accept(ModItems.ROSIUM_HELMET);
+                        output.accept(ModItems.ROSIUM_HORSE_ARMOR);
+
+                        output.accept(ModItems.LUNARITE_CHESTPLATE);
+                        output.accept(ModItems.LUNARITE_BOOTS);
+                        output.accept(ModItems.LUNARITE_LEGGINGS);
+                        output.accept(ModItems.LUNARITE_HELMET);
+                        output.accept(ModItems.LUNARITE_HORSE_ARMOR);
+
+                        output.accept(ModItems.DREAMSTONE_CHESTPLATE);
+                        output.accept(ModItems.DREAMSTONE_BOOTS);
+                        output.accept(ModItems.DREAMSTONE_LEGGINGS);
+                        output.accept(ModItems.DREAMSTONE_HELMET);
+                        output.accept(ModItems.DREAMSTONE_HORSE_ARMOR);
+
                         /////////////// TOOLS /////////////////////
                         output.accept(ModItems.RAINBOW_SWORD);
                         output.accept(ModItems.RAINBOW_PICKAXE);
@@ -133,6 +151,27 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAINBOW_AXE);
                         output.accept(ModItems.RAINBOW_HOE);
                         output.accept(ModItems.RAINBOW_HAMMER);
+
+                        output.accept(ModItems.ROSIUM_SWORD);
+                        output.accept(ModItems.ROSIUM_PICKAXE);
+                        output.accept(ModItems.ROSIUM_SHOVEL);
+                        output.accept(ModItems.ROSIUM_AXE);
+                        output.accept(ModItems.ROSIUM_HOE);
+                        output.accept(ModItems.ROSIUM_HAMMER);
+
+                        output.accept(ModItems.LUNARITE_SWORD);
+                        output.accept(ModItems.LUNARITE_PICKAXE);
+                        output.accept(ModItems.LUNARITE_SHOVEL);
+                        output.accept(ModItems.LUNARITE_AXE);
+                        output.accept(ModItems.LUNARITE_HOE);
+                        output.accept(ModItems.LUNARITE_HAMMER);
+
+                        output.accept(ModItems.DREAMSTONE_SWORD);
+                        output.accept(ModItems.DREAMSTONE_PICKAXE);
+                        output.accept(ModItems.DREAMSTONE_SHOVEL);
+                        output.accept(ModItems.DREAMSTONE_AXE);
+                        output.accept(ModItems.DREAMSTONE_HOE);
+                        output.accept(ModItems.DREAMSTONE_HAMMER);
 
                         /////////////// SMITHING /////////////////
                         output.accept(ModItems.RAINBOW_SMITHING_TEMPLATE);

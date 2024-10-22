@@ -36,6 +36,33 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.BODY, 11);
             }), 16, 2f, 0.1f, () -> ModItems.RAINBOW_INGOT.get());
 
+    public static final Holder<ArmorMaterial> ROSIUM_ARMOR_MATERIAL = register("rosium",
+            Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 5);
+                attribute.put(ArmorItem.Type.LEGGINGS, 7);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 9);
+                attribute.put(ArmorItem.Type.HELMET, 5);
+                attribute.put(ArmorItem.Type.BODY, 11);
+            }), 16, 2f, 0.1f, () -> ModItems.ROSIUM_INGOT.get());
+
+    public static final Holder<ArmorMaterial> LUNARITE_ARMOR_MATERIAL = register("lunarite",
+            Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 5);
+                attribute.put(ArmorItem.Type.LEGGINGS, 7);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 9);
+                attribute.put(ArmorItem.Type.HELMET, 5);
+                attribute.put(ArmorItem.Type.BODY, 11);
+            }), 16, 2f, 0.1f, () -> ModItems.LUNARITE_INGOT.get());
+
+    public static final Holder<ArmorMaterial> DREAMSTONE_ARMOR_MATERIAL = register("dreamstone",
+            Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 5);
+                attribute.put(ArmorItem.Type.LEGGINGS, 7);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 9);
+                attribute.put(ArmorItem.Type.HELMET, 5);
+                attribute.put(ArmorItem.Type.BODY, 11);
+            }), 16, 2f, 0.1f, () -> ModItems.DREAMSTONE_INGOT.get());
+
 
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,
