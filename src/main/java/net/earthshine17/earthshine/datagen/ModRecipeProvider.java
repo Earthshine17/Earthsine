@@ -7,10 +7,14 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
+import net.neoforged.neoforge.registries.DeferredItem;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -134,6 +138,205 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(recipeOutput, RAINBOW_SMELTABLES, RecipeCategory.MISC, ModItems.RAINBOW_INGOT.get(), 0.25f, 200, "rainbow_ingot");
         oreBlasting(recipeOutput, RAINBOW_SMELTABLES, RecipeCategory.MISC, ModItems.RAINBOW_INGOT.get(), 0.25f, 100, "rainbow_ingot");
 
+        ///////////////// PICKAXE ////////////////////
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_PICKAXE.get())
+                .pattern("BBB")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.ROSIUM_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_rosium", has(ModItems.ROSIUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LUNARITE_PICKAXE.get())
+                .pattern("BBB")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.LUNARITE_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_rosium", has(ModItems.LUNARITE_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DREAMSTONE_PICKAXE.get())
+                .pattern("BBB")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.DREAMSTONE_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_rosium", has(ModItems.DREAMSTONE_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RAINBOW_PICKAXE.get())
+                .pattern("BBB")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.RAINBOW_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_rosium", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
+
+        ///////////////// SHOVEL /////////////////////
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_SHOVEL.get())
+                .pattern(" B ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.ROSIUM_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_rosium", has(ModItems.ROSIUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LUNARITE_SHOVEL.get())
+                .pattern(" B ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.LUNARITE_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_lunarite", has(ModItems.LUNARITE_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DREAMSTONE_SHOVEL.get())
+                .pattern(" B ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.DREAMSTONE_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_dreamstone", has(ModItems.DREAMSTONE_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RAINBOW_SHOVEL.get())
+                .pattern(" B ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.RAINBOW_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_rainbow", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
+
+        ///////////////// AXE ////////////////////////
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_AXE.get())
+                .pattern("BB ")
+                .pattern("BA ")
+                .pattern(" A ")
+                .define('B', ModItems.ROSIUM_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_rosium", has(ModItems.ROSIUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LUNARITE_AXE.get())
+                .pattern("BB ")
+                .pattern("BA ")
+                .pattern(" A ")
+                .define('B', ModItems.LUNARITE_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_lunarite", has(ModItems.LUNARITE_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DREAMSTONE_AXE.get())
+                .pattern("BB ")
+                .pattern("BA ")
+                .pattern(" A ")
+                .define('B', ModItems.DREAMSTONE_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_dreamstone", has(ModItems.DREAMSTONE_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RAINBOW_AXE.get())
+                .pattern("BB ")
+                .pattern("BA ")
+                .pattern(" A ")
+                .define('B', ModItems.RAINBOW_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_rainbow", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
+
+        ///////////////// HOE ////////////////////////
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_HOE.get())
+                .pattern("BB ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.ROSIUM_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_rosium", has(ModItems.ROSIUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LUNARITE_HOE.get())
+                .pattern("BB ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.LUNARITE_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_lunarite", has(ModItems.LUNARITE_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DREAMSTONE_HOE.get())
+                .pattern("BB ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.DREAMSTONE_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_dreamstone", has(ModItems.DREAMSTONE_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RAINBOW_HOE.get())
+                .pattern("BB ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.RAINBOW_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_rainbow", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
+
+        ///////////////// SWORD //////////////////////
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_SWORD.get())
+                .pattern(" B ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('B', ModItems.ROSIUM_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_rosium", has(ModItems.ROSIUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LUNARITE_SWORD.get())
+                .pattern(" B ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('B', ModItems.LUNARITE_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_lunarite", has(ModItems.LUNARITE_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DREAMSTONE_SWORD.get())
+                .pattern(" B ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('B', ModItems.DREAMSTONE_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_dreamstone", has(ModItems.DREAMSTONE_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RAINBOW_SWORD.get())
+                .pattern(" B ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('B', ModItems.RAINBOW_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_rainbow", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
+
+
+        ///////////////// HAMMER /////////////////////
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_HAMMER.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern(" A ")
+                .define('B', ModItems.ROSIUM_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_rosium", has(ModItems.ROSIUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LUNARITE_HAMMER.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern(" A ")
+                .define('B', ModItems.LUNARITE_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_lunarite", has(ModItems.LUNARITE_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DREAMSTONE_HAMMER.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern(" A ")
+                .define('B', ModItems.DREAMSTONE_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_dreamstone", has(ModItems.DREAMSTONE_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RAINBOW_HAMMER.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern(" A ")
+                .define('B', ModItems.RAINBOW_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_rainbow", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
+
         ///////////////// ARMORS //////////////////////
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_HELMET.get())
                 .pattern("BBB")
@@ -235,6 +438,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', ModItems.RAINBOW_INGOT.get())
                 .unlockedBy("has_dreamstone", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
 
+        ///////////////////////// STAIRS ///////////////////////
+        stairBuilder(ModBlocks.ROSIUM_STAIRS.get(), Ingredient.of(ModItems.ROSIUM_INGOT)).group("rosium")
+                .unlockedBy("has_bismuth", has(ModItems.ROSIUM_INGOT)).save(recipeOutput);
+        stairBuilder(ModBlocks.LUNARITE_STAIRS.get(), Ingredient.of(ModItems.LUNARITE_INGOT)).group("lunarite")
+                .unlockedBy("has_bismuth", has(ModItems.LUNARITE_INGOT)).save(recipeOutput);
+        stairBuilder(ModBlocks.DREAMSTONE_STAIRS.get(), Ingredient.of(ModItems.DREAMSTONE_INGOT)).group("dreamstone")
+                .unlockedBy("has_bismuth", has(ModItems.DREAMSTONE_INGOT)).save(recipeOutput);
+        stairBuilder(ModBlocks.RAINBOW_STAIRS.get(), Ingredient.of(ModItems.RAINBOW_INGOT)).group("rainbow")
+                .unlockedBy("has_bismuth", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
+
+        ////////////////////// SLABS ///////////////////////////
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ROSIUM_SLAB.get(), ModBlocks.ROSIUM_BLOCK.get());
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LUNARITE_SLAB.get(), ModBlocks.LUNARITE_BLOCK.get());
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DREAMSTONE_SLAB.get(), ModBlocks.DREAMSTONE_BLOCK.get());
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RAINBOW_SLAB.get(), ModBlocks.RAINBOW_BLOCK.get());
+
+        ///////////////////// WALLS ////////////////////////////
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ROSIUM_WALL.get(), ModItems.ROSIUM_INGOT.get());
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LUNARITE_WALL.get(), ModItems.LUNARITE_INGOT.get());
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DREAMSTONE_WALL.get(), ModItems.DREAMSTONE_INGOT.get());
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RAINBOW_WALL.get(), ModItems.RAINBOW_INGOT.get());
+
 
     }
 
@@ -257,4 +482,5 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                     .save(recipeOutput, ESMod.MOD_ID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemlike));
         }
     }
+
 }

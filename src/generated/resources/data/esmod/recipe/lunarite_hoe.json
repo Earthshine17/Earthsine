@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "esmod:lunarite_ingot"
+    }
+  },
+  "pattern": [
+    "BB ",
+    " A ",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "esmod:lunarite_hoe"
+  }
+}

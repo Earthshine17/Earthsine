@@ -55,7 +55,39 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.LUNARITE_BLOCK.get())
                 .add(ModBlocks.DREAMSTONE_BLOCK.get())
                 .add(ModBlocks.ROSIUM_BLOCK.get())
-                .add(ModBlocks.RAINBOW_BLOCK.get());
+                .add(ModBlocks.RAINBOW_BLOCK.get())
+
+                .add(ModBlocks.ROSIUM_SLAB.get())
+                .add(ModBlocks.LUNARITE_SLAB.get())
+                .add(ModBlocks.DREAMSTONE_SLAB.get())
+                .add(ModBlocks.RAINBOW_SLAB.get())
+
+                .add(ModBlocks.ROSIUM_STAIRS.get())
+                .add(ModBlocks.LUNARITE_STAIRS.get())
+                .add(ModBlocks.DREAMSTONE_STAIRS.get())
+                .add(ModBlocks.RAINBOW_STAIRS.get())
+
+        ;
+
+
+
+        ////////////////// WALLS //////////////////////
+        tag(BlockTags.WALLS).add(ModBlocks.ROSIUM_WALL.get());
+        tag(BlockTags.WALLS).add(ModBlocks.LUNARITE_WALL.get());
+        tag(BlockTags.WALLS).add(ModBlocks.DREAMSTONE_WALL.get());
+        tag(BlockTags.WALLS).add(ModBlocks.RAINBOW_WALL.get());
+
+        ////////////////// SLABS //////////////////////
+        /*tag(BlockTags.SLABS).add(ModBlocks.ROSIUM_SLAB.get());
+        tag(BlockTags.SLABS).add(ModBlocks.LUNARITE_SLAB.get());
+        tag(BlockTags.SLABS).add(ModBlocks.DREAMSTONE_SLAB.get());
+        tag(BlockTags.SLABS).add(ModBlocks.RAINBOW_SLAB.get());*/
+
+        ////////////////// STAIRS //////////////////////
+        /*tag(BlockTags.STAIRS).add(ModBlocks.ROSIUM_STAIRS.get());
+        tag(BlockTags.STAIRS).add(ModBlocks.LUNARITE_STAIRS.get());
+        tag(BlockTags.STAIRS).add(ModBlocks.DREAMSTONE_STAIRS.get());
+        tag(BlockTags.STAIRS).add(ModBlocks.RAINBOW_STAIRS.get());*/
 
         /////////////////// TOOLS ////////////////////
         tag(ModTags.Blocks.NEEDS_RAINBOW_TOOL)

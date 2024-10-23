@@ -59,6 +59,32 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.DREAMSTONE_BLOCK);
         blockWithItem(ModBlocks.LUNARITE_BLOCK);
         blockWithItem(ModBlocks.RAINBOW_BLOCK);
+
+        ////////////////// STAIRS ////////////////////
+        stairsBlock(ModBlocks.ROSIUM_STAIRS.get(), blockTexture(ModBlocks.ROSIUM_BLOCK.get()));
+        stairsBlock(ModBlocks.LUNARITE_STAIRS.get(), blockTexture(ModBlocks.LUNARITE_BLOCK.get()));
+        stairsBlock(ModBlocks.DREAMSTONE_STAIRS.get(), blockTexture(ModBlocks.DREAMSTONE_BLOCK.get()));
+        stairsBlock(ModBlocks.RAINBOW_STAIRS.get(), blockTexture(ModBlocks.RAINBOW_BLOCK.get()));
+        blockItem(ModBlocks.ROSIUM_STAIRS);
+        blockItem(ModBlocks.LUNARITE_STAIRS);
+        blockItem(ModBlocks.DREAMSTONE_STAIRS);
+        blockItem(ModBlocks.RAINBOW_STAIRS);
+
+        ////////////////// SLABS ////////////////////
+        slabBlock(ModBlocks.ROSIUM_SLAB.get(), blockTexture(ModBlocks.ROSIUM_BLOCK.get()), blockTexture(ModBlocks.ROSIUM_BLOCK.get()));
+        slabBlock(ModBlocks.LUNARITE_SLAB.get(), blockTexture(ModBlocks.LUNARITE_BLOCK.get()), blockTexture(ModBlocks.LUNARITE_BLOCK.get()));
+        slabBlock(ModBlocks.DREAMSTONE_SLAB.get(), blockTexture(ModBlocks.DREAMSTONE_BLOCK.get()), blockTexture(ModBlocks.DREAMSTONE_BLOCK.get()));
+        slabBlock(ModBlocks.RAINBOW_SLAB.get(), blockTexture(ModBlocks.RAINBOW_BLOCK.get()), blockTexture(ModBlocks.RAINBOW_BLOCK.get()));
+        blockItem(ModBlocks.ROSIUM_SLAB);
+        blockItem(ModBlocks.LUNARITE_SLAB);
+        blockItem(ModBlocks.DREAMSTONE_SLAB);
+        blockItem(ModBlocks.RAINBOW_SLAB);
+
+        //////////////////  WALLS ////////////////////
+        wallBlock(ModBlocks.ROSIUM_WALL.get(), blockTexture(ModBlocks.ROSIUM_BLOCK.get()));
+        wallBlock(ModBlocks.LUNARITE_WALL.get(), blockTexture(ModBlocks.LUNARITE_BLOCK.get()));
+        wallBlock(ModBlocks.DREAMSTONE_WALL.get(), blockTexture(ModBlocks.DREAMSTONE_BLOCK.get()));
+        wallBlock(ModBlocks.RAINBOW_WALL.get(), blockTexture(ModBlocks.RAINBOW_BLOCK.get()));
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

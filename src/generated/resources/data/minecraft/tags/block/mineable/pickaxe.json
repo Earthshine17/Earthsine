@@ -14,6 +14,14 @@
     "esmod:lunarite_block",
     "esmod:dreamstone_block",
     "esmod:rosium_block",
-    "esmod:rainbow_block"
+    "esmod:rainbow_block",
+    "esmod:rosium_slab",
+    "esmod:lunarite_slab",
+    "esmod:dreamstone_slab",
+    "esmod:rainbow_slab",
+    "esmod:rosium_stairs",
+    "esmod:lunarite_stairs",
+    "esmod:dreamstone_stairs",
+    "esmod:rainbow_stairs"
   ]
 }

@@ -145,6 +145,16 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //////////////// SMITHING ///////////////
         basicItem(ModItems.ES_SMITHING_TEMPLATE.get());
+
+        //////////////// WALLS /////////////////
+        wallItem(ModBlocks.ROSIUM_WALL, ModBlocks.ROSIUM_BLOCK);
+        wallItem(ModBlocks.LUNARITE_WALL, ModBlocks.LUNARITE_BLOCK);
+        wallItem(ModBlocks.DREAMSTONE_WALL, ModBlocks.DREAMSTONE_BLOCK);
+        wallItem(ModBlocks.RAINBOW_WALL, ModBlocks.RAINBOW_BLOCK);
+
+        //basicItem(ModBlocks.ROSIUM_SLAB.asItem());
+
+        //basicItem(ModBlocks.ROSIUM_STAIRS.asItem());
     }
 
     // Shoutout to El_Redstoniano for making this

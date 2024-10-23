@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dreamstone",
+  "key": {
+    "#": {
+      "item": "esmod:dreamstone_ingot"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "esmod:dreamstone_stairs"
+  }
+}

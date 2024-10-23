@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "rosium",
+  "key": {
+    "#": {
+      "item": "esmod:rosium_ingot"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "esmod:rosium_stairs"
+  }
+}

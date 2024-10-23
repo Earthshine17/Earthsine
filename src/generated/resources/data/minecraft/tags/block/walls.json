@@ -1,5 +1,9 @@
 {
   "values": [
-    "esmod:bismuth_wall"
+    "esmod:bismuth_wall",
+    "esmod:rosium_wall",
+    "esmod:lunarite_wall",
+    "esmod:dreamstone_wall",
+    "esmod:rainbow_wall"
   ]
 }

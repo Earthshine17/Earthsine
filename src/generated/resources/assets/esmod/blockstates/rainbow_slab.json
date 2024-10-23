@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "esmod:block/rainbow_slab"
+    },
+    "type=double": {
+      "model": "esmod:block/rainbow_block"
+    },
+    "type=top": {
+      "model": "esmod:block/rainbow_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "esmod:block/rosium_slab"
+    },
+    "type=double": {
+      "model": "esmod:block/rosium_block"
+    },
+    "type=top": {
+      "model": "esmod:block/rosium_slab_top"
+    }
+  }
+}

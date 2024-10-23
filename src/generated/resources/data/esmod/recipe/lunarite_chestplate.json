@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "esmod:lunarite_ingot"
+    }
+  },
+  "pattern": [
+    "B B",
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "esmod:lunarite_chestplate"
+  }
+}

@@ -75,6 +75,28 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.LUNARITE_BLOCK.get());
         dropSelf(ModBlocks.RAINBOW_BLOCK.get());
 
+        //////////////////// STAIRS ////////////////////
+        dropSelf(ModBlocks.ROSIUM_STAIRS.get());
+        dropSelf(ModBlocks.LUNARITE_STAIRS.get());
+        dropSelf(ModBlocks.DREAMSTONE_STAIRS.get());
+        dropSelf(ModBlocks.RAINBOW_STAIRS.get());
+
+        //////////////////// SLABS ////////////////////
+        add(ModBlocks.ROSIUM_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.ROSIUM_SLAB.get()));
+        add(ModBlocks.LUNARITE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.LUNARITE_SLAB.get()));
+        add(ModBlocks.DREAMSTONE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DREAMSTONE_SLAB.get()));
+        add(ModBlocks.RAINBOW_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.RAINBOW_SLAB.get()));
+
+        //////////////////// WALLS ////////////////////
+        dropSelf(ModBlocks.ROSIUM_WALL.get());
+        dropSelf(ModBlocks.LUNARITE_WALL.get());
+        dropSelf(ModBlocks.DREAMSTONE_WALL.get());
+        dropSelf(ModBlocks.RAINBOW_WALL.get());
+
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

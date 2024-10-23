@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "lunarite",
+  "key": {
+    "#": {
+      "item": "esmod:lunarite_ingot"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "esmod:lunarite_stairs"
+  }
+}

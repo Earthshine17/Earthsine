@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-23T10:49:18.4968673	Item Models: esmod
+// 1.21.1	2024-10-23T12:29:48.2643181	Item Models: esmod
 f0b359d0faf20b58127d67d56cca571cec9e74b7 assets/esmod/models/item/bismuth.json
 02676bea3aab81b1f9f3ed66d3aa5c23ebe22dfd assets/esmod/models/item/bismuth_axe.json
 088510ab10b39d45ef61e07e541b144f1851208f assets/esmod/models/item/bismuth_boots.json
@@ -108,6 +108,7 @@ bd024afb68d181a25a7d3c04fc3ea5717cecf848 assets/esmod/models/item/dreamstone_nug
 49c9e49b77c7b9fb7229016558aac42c9ccb9b66 assets/esmod/models/item/dreamstone_pickaxe.json
 acafed058f7eee33828c0811161cb694964e838d assets/esmod/models/item/dreamstone_shovel.json
 89af9a4d89bb79cf772e7df1a2f25ca673e81594 assets/esmod/models/item/dreamstone_sword.json
+b850c2ac62366f56367862929d134dafaea4852c assets/esmod/models/item/dreamstone_wall.json
 e9198ff0af3caa1f30ba94cf5d36d3f258eba73e assets/esmod/models/item/es_armor_trim_smithing_template.json
 baf645d69c5be2406c97275c4382fbd8b094256c assets/esmod/models/item/frostfire_ice.json
 b462baefd5e38bec67956e384726507111fd5937 assets/esmod/models/item/lunarite_axe.json
@@ -163,6 +164,7 @@ e6b5bb2d7b849502d6fb8b073223f5bc8f5851ee assets/esmod/models/item/lunarite_leggi
 9a3b4562593329371d41122363d7666782bae154 assets/esmod/models/item/lunarite_pickaxe.json
 216633c72a49bb9980058ac51fa738cb5c33e410 assets/esmod/models/item/lunarite_shovel.json
 f7d0054b29b3c36666535910c3e98a28af0468fe assets/esmod/models/item/lunarite_sword.json
+bd693bd30244df77895f06a65bc853a25f656d82 assets/esmod/models/item/lunarite_wall.json
 b991af6442f5b24935d8def9d58e2e0002af8d97 assets/esmod/models/item/radish.json
 4fb7af2f51cff51ad845deb6a1594c26e10cd38e assets/esmod/models/item/rainbow_axe.json
 b89ed4abc552d371b91925140c320b35f73045a1 assets/esmod/models/item/rainbow_boots.json
@@ -216,6 +218,7 @@ a8a1c974303f9a0e99afa65ee01064f828165fc6 assets/esmod/models/item/rainbow_leggin
 83998af242c87f8f79efbac01b3ef05f6c10956d assets/esmod/models/item/rainbow_pickaxe.json
 43c091fe4ecc3078702e41ea3d681c6f8fec8566 assets/esmod/models/item/rainbow_shovel.json
 a93b1b69ed43a86f3b443a850b100d00e68dec63 assets/esmod/models/item/rainbow_sword.json
+d4dc623c50c637bbcd92baaa99af076f81ff1512 assets/esmod/models/item/rainbow_wall.json
 520f04ec2d00e2bc54b59ba34f86f911c1cf27e6 assets/esmod/models/item/raw_bismuth.json
 37802d3cc4245fc568a292ddf7f48b30a6440a2f assets/esmod/models/item/raw_dreamstone.json
 713cdb25f208b0c5c8e207378b032bc27b28d441 assets/esmod/models/item/raw_lunarite.json
@@ -274,4 +277,5 @@ fcb232518eab2e658cf44b5ac060110171e7ed69 assets/esmod/models/item/rosium_legging
 1a27a3118a0684155ca8ce7513997bffc48ee1c5 assets/esmod/models/item/rosium_pickaxe.json
 2295e215ea7c0e4e03f5b273063a5cc3ca9852e8 assets/esmod/models/item/rosium_shovel.json
 29d7a03404f6df55b1cf1c01159e865c10ae84d2 assets/esmod/models/item/rosium_sword.json
+adb92fd68c7a1b97ec42173b43093766b715894c assets/esmod/models/item/rosium_wall.json
 8e3dfcc20e08d7b37e270772c59724418aab0547 assets/esmod/models/item/starlight_ashes.json

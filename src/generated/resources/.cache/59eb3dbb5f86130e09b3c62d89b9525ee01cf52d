@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-23T11:08:21.7523383	Loot Tables
+// 1.21.1	2024-10-23T12:29:48.2698312	Loot Tables
 14bd60cdba4099cdb140a1b1535d1373a65390c8 data/esmod/loot_table/blocks/bismuth_block.json
 9b6f60eb7c1dc3bf8fb2876fabe78eeb849981ed data/esmod/loot_table/blocks/bismuth_button.json
 3b11af2b283a7181a6f467e882261ffa09a1ce50 data/esmod/loot_table/blocks/bismuth_deepslate_ore.json
@@ -14,12 +14,24 @@ b7f6c6df37c131f7f004edcf477cff72f48793d2 data/esmod/loot_table/blocks/bismuth_sl
 d610615d3acf63977be3f6a08836392c755da338 data/esmod/loot_table/blocks/dreamstone_block.json
 f8d44f4c1d5ad3d66b43c067eafe916acd82d1bf data/esmod/loot_table/blocks/dreamstone_deepslate_ore.json
 1bc14f78609b3e980b5b8ab76e07e944f2a43476 data/esmod/loot_table/blocks/dreamstone_ore.json
+16cec1a727dd643c0415ec0fff92a4f8a08219a9 data/esmod/loot_table/blocks/dreamstone_slab.json
+d9165faeec893a571a387ec8d33eff89670710a0 data/esmod/loot_table/blocks/dreamstone_stairs.json
+66ba94c9e4987f286807271ba3a255bc6390f54b data/esmod/loot_table/blocks/dreamstone_wall.json
 7227ccf76927508d342e9a55e2968c02db49de3d data/esmod/loot_table/blocks/lunarite_block.json
 006a08f68507b679600a0d22937470b7beb0e62a data/esmod/loot_table/blocks/lunarite_deepslate_ore.json
 919a7c16c5552e50f915188ded2606c04d250747 data/esmod/loot_table/blocks/lunarite_ore.json
+1c8b3073a4ba4ae172ef9d6139b5e4655fd9f30f data/esmod/loot_table/blocks/lunarite_slab.json
+cfb91bec55faf34eff1b75c48ca417828d669d80 data/esmod/loot_table/blocks/lunarite_stairs.json
+b211a166bdea34103b1b74649a199777aad6802e data/esmod/loot_table/blocks/lunarite_wall.json
 87832a31ad1ba4dad518e59515d2f55fa529b7bf data/esmod/loot_table/blocks/rainbow_block.json
 cc0929c72e0a0d1fb3368b6fdc11541c2e805e71 data/esmod/loot_table/blocks/rainbow_deepslate_ore.json
 93ca1f235c2d88a08fd1cd8094629b7d044e4cbb data/esmod/loot_table/blocks/rainbow_ore.json
+2a59263b137ced87388be1301a93dafb01df60f7 data/esmod/loot_table/blocks/rainbow_slab.json
+5c540b2aeb0cfd683be15c98042f1b887ff4f4d4 data/esmod/loot_table/blocks/rainbow_stairs.json
+b25cb99186642cf819b68329564d9846b799cc6e data/esmod/loot_table/blocks/rainbow_wall.json
 4bf6cb606fd80ba50d4c075c2d118ffdceaf99e1 data/esmod/loot_table/blocks/rosium_block.json
 29f4585d1030e58cb836879b9799be9b55d33caa data/esmod/loot_table/blocks/rosium_deepslate_ore.json
 9dd725dcb4e0174a7a847cef7cebaf0255d25c34 data/esmod/loot_table/blocks/rosium_ore.json
+a0cd56bbb933a2bbb85413c08c7cfbf1713caa9a data/esmod/loot_table/blocks/rosium_slab.json
+d567e97fb4cb96803315d57a734ecbe1a8339577 data/esmod/loot_table/blocks/rosium_stairs.json
+0a0b2a7cdf6c3f7bf31313033a3e43e38f6523a7 data/esmod/loot_table/blocks/rosium_wall.json

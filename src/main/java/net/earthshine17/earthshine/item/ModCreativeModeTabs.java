@@ -39,6 +39,25 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.LUNARITE_BLOCK);
                         output.accept(ModBlocks.RAINBOW_BLOCK);
 
+                        //////////////// SLABS /////////////////////
+                        output.accept(ModBlocks.ROSIUM_SLAB);
+                        output.accept(ModBlocks.LUNARITE_SLAB);
+                        output.accept(ModBlocks.DREAMSTONE_SLAB);
+                        output.accept(ModBlocks.RAINBOW_SLAB);
+
+                        //////////////////// STAIRS //////////////////
+                        output.accept(ModBlocks.ROSIUM_STAIRS);
+                        output.accept(ModBlocks.LUNARITE_STAIRS);
+                        output.accept(ModBlocks.DREAMSTONE_STAIRS);
+                        output.accept(ModBlocks.RAINBOW_STAIRS);
+
+                        ///////////////////// WALLS //////////////////
+                        output.accept(ModBlocks.ROSIUM_WALL);
+                        output.accept(ModBlocks.LUNARITE_WALL);
+                        output.accept(ModBlocks.DREAMSTONE_WALL);
+                        output.accept(ModBlocks.RAINBOW_WALL);
+
+
                         /////////// INGOTS ///////////
                         output.accept(ModItems.DREAMSTONE_INGOT);
                         output.accept(ModItems.ROSIUM_INGOT);

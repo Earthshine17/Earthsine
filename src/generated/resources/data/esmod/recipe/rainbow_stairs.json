@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "rainbow",
+  "key": {
+    "#": {
+      "item": "esmod:rainbow_ingot"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "esmod:rainbow_stairs"
+  }
+}

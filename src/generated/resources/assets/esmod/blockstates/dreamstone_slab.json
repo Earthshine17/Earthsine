@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "esmod:block/dreamstone_slab"
+    },
+    "type=double": {
+      "model": "esmod:block/dreamstone_block"
+    },
+    "type=top": {
+      "model": "esmod:block/dreamstone_slab_top"
+    }
+  }
+}

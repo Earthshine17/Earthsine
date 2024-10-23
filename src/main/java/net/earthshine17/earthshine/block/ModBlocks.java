@@ -99,6 +99,40 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
+    ////////////////////// SLABS ////////////////////////////
+    public static final DeferredBlock<SlabBlock> ROSIUM_SLAB = registerBlock("rosium_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> LUNARITE_SLAB = registerBlock("lunarite_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> DREAMSTONE_SLAB = registerBlock("dreamstone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> RAINBOW_SLAB = registerBlock("rainbow_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    //////////////////// STAIRS /////////////////////////////
+    public static final DeferredBlock<StairBlock> ROSIUM_STAIRS = registerBlock("rosium_stairs",
+            () -> new StairBlock(ModBlocks.ROSIUM_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> LUNARITE_STAIRS = registerBlock("lunarite_stairs",
+            () -> new StairBlock(ModBlocks.LUNARITE_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> DREAMSTONE_STAIRS = registerBlock("dreamstone_stairs",
+            () -> new StairBlock(ModBlocks.DREAMSTONE_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> RAINBOW_STAIRS = registerBlock("rainbow_stairs",
+            () -> new StairBlock(ModBlocks.RAINBOW_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    ///////////////////////// WALLS ////////////////////////////////
+    public static final DeferredBlock<WallBlock> ROSIUM_WALL = registerBlock("rosium_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<WallBlock> LUNARITE_WALL = registerBlock("lunarite_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<WallBlock> DREAMSTONE_WALL = registerBlock("dreamstone_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<WallBlock> RAINBOW_WALL = registerBlock("rainbow_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

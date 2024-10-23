@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "esmod:block/lunarite_slab"
+    },
+    "type=double": {
+      "model": "esmod:block/lunarite_block"
+    },
+    "type=top": {
+      "model": "esmod:block/lunarite_slab_top"
+    }
+  }
+}
