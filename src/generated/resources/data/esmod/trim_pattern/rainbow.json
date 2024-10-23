@@ -1,8 +1,0 @@
-{
-  "asset_id": "esmod:rainbow",
-  "decal": false,
-  "description": {
-    "translate": "trim_pattern.esmod.rainbow"
-  },
-  "template_item": "esmod:rainbow_armor_trim_smithing_template"
-}

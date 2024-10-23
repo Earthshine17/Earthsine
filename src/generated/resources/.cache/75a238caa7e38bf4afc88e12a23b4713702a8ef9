@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-20T18:48:06.1462883	Tags for minecraft:item mod id esmod
+// 1.21.1	2024-10-23T10:49:18.5028675	Tags for minecraft:item mod id esmod
 c908b877f605133cf0de117054eabda60b7b33ca data/esmod/tags/item/transformable_items.json
 b7ab7daa61fd6c6265315dd481f998bf10151693 data/minecraft/tags/item/axes.json
 da7bdaca43e96f6d17bc21546db3fbe134f4f77f data/minecraft/tags/item/hoes.json
@@ -7,4 +7,4 @@ d5ceca84438e0ca80db70984241deee2de163c66 data/minecraft/tags/item/shovels.json
 5b25580d8f715b4cbb2ed5f625b63367e1db1d5e data/minecraft/tags/item/swords.json
 1208c22db6dceb02eba67fb313f25e3a7363de5c data/minecraft/tags/item/trimmable_armor.json
 d6e82537a42e29467cb8f9b6f7231c338fcb0035 data/minecraft/tags/item/trim_materials.json
-c1f17a3b1c5a7b693e090a2abfb9cc96d1686461 data/minecraft/tags/item/trim_templates.json
+02a819f86a208e06b1f8e6608bf600ca76bb6926 data/minecraft/tags/item/trim_templates.json

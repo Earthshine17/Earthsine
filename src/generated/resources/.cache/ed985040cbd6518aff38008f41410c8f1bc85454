@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-20T18:48:06.1422836	Item Models: esmod
+// 1.21.1	2024-10-23T10:49:18.4968673	Item Models: esmod
 f0b359d0faf20b58127d67d56cca571cec9e74b7 assets/esmod/models/item/bismuth.json
 02676bea3aab81b1f9f3ed66d3aa5c23ebe22dfd assets/esmod/models/item/bismuth_axe.json
 088510ab10b39d45ef61e07e541b144f1851208f assets/esmod/models/item/bismuth_boots.json
@@ -164,7 +164,6 @@ e6b5bb2d7b849502d6fb8b073223f5bc8f5851ee assets/esmod/models/item/lunarite_leggi
 216633c72a49bb9980058ac51fa738cb5c33e410 assets/esmod/models/item/lunarite_shovel.json
 f7d0054b29b3c36666535910c3e98a28af0468fe assets/esmod/models/item/lunarite_sword.json
 b991af6442f5b24935d8def9d58e2e0002af8d97 assets/esmod/models/item/radish.json
-bb231a147883024754e5b455415108527b6d2453 assets/esmod/models/item/rainbow_armor_trim_smithing_template.json
 4fb7af2f51cff51ad845deb6a1594c26e10cd38e assets/esmod/models/item/rainbow_axe.json
 b89ed4abc552d371b91925140c320b35f73045a1 assets/esmod/models/item/rainbow_boots.json
 e10430f90eb0327f2f50afe3e681ca3b510c287f assets/esmod/models/item/rainbow_boots_amethyst_trim.json

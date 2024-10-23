@@ -69,7 +69,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.BISMUTH_BOOTS);
 
         basicItem(ModItems.BISMUTH_HORSE_ARMOR.get());
-        basicItem(ModItems.ES_SMITHING_TEMPLATE.get());
+
 
 
         //////////////////// INGOTS /////////////////////
@@ -144,7 +144,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.DREAMSTONE_HAMMER);
 
         //////////////// SMITHING ///////////////
-        basicItem(ModItems.RAINBOW_SMITHING_TEMPLATE.get());
+        basicItem(ModItems.ES_SMITHING_TEMPLATE.get());
     }
 
     // Shoutout to El_Redstoniano for making this

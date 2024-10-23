@@ -49,8 +49,7 @@ public class ModItemTagProvider extends ItemTagsProvider {
         this.tag(ItemTags.TRIM_MATERIALS)
                 .add(ModItems.BISMUTH.get());
 
-        this.tag(ItemTags.TRIM_TEMPLATES)
-                .add(ModItems.ES_SMITHING_TEMPLATE.get());
+
 
 
         ///////////////////// ARMORS /////////////////////
@@ -128,6 +127,7 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.RAINBOW_INGOT.get());
 
         this.tag(ItemTags.TRIM_TEMPLATES)
-                .add(ModItems.RAINBOW_SMITHING_TEMPLATE.get());
+                .add(ModItems.ES_SMITHING_TEMPLATE.get());
+
     }
 }

@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-20T10:12:42.3156298	Recipes
+// 1.21.1	2024-10-23T11:27:45.0694219	Recipes
 4d1fe7f145d41f0f710c93f3efdee828c94173f9 data/esmod/advancement/recipes/building_blocks/bismuth_slab.json
 7c9173f183c3c489e6c25eee5b482d971bea14d8 data/esmod/advancement/recipes/building_blocks/bismuth_stairs.json
 f44b67e2bbbb9bee36cad49939dc6234ebdad52a data/esmod/advancement/recipes/building_blocks/bismuth_wall.json
@@ -17,14 +17,18 @@ b02103e115eadc994aed10ad35c87f3d99d0c5c3 data/esmod/advancement/recipes/misc/dre
 0be863503254245c5253e676cffa6609c99efccc data/esmod/advancement/recipes/misc/dreamstone_ingot.json
 e4de2a6a12b33a9141373e0a0abc7054185e48cf data/esmod/advancement/recipes/misc/es.json
 94a0b5e5c13323837df41936e35b738618b443e1 data/esmod/advancement/recipes/misc/lunarite_block.json
-4f9b5df0f9a055876b4715b299f1a7a66c22267e data/esmod/advancement/recipes/misc/rainbow_block.json
+380eae8f86d646ba47f4df6eee758498040daf1c data/esmod/advancement/recipes/misc/rainbow_block.json
 876308ac188d9fd5503c895781e2b152096e1ca1 data/esmod/advancement/recipes/misc/rainbow_ingot.json
 3bab18889c1b8f417e860815e78b2321048e57cb data/esmod/advancement/recipes/misc/rainbow_ingot_from_blasting_rainbow_ore.json
 e09c2e102ce178fcff386369419ba61e2ddd9440 data/esmod/advancement/recipes/misc/rainbow_ingot_from_blasting_raw_rainbow.json
 8b902ad656ee846b22d1e5ca2d2ecfe7d4ad3c19 data/esmod/advancement/recipes/misc/rainbow_ingot_from_smelting_rainbow_ore.json
 54ba05faa94b7a68115c7270a96672aac67ec332 data/esmod/advancement/recipes/misc/rainbow_ingot_from_smelting_raw_rainbow.json
 b0c6ef50ba1d7039a0828de80694881514e82f9f data/esmod/advancement/recipes/misc/rosium_block.json
+76c81ce02e01223d6d4444e3921a1e744573541c data/esmod/advancement/recipes/misc/rosium_boots.json
+f3bca5e76949d0bf2711594ade1c7c957d5116c9 data/esmod/advancement/recipes/misc/rosium_chestplate.json
+7a24c7b97b0a9f9839a291a741c8a439ffbb0ba0 data/esmod/advancement/recipes/misc/rosium_helmet.json
 d34fd9d95e1e456c4548ab8b0e04053faf8f30a0 data/esmod/advancement/recipes/misc/rosium_ingot.json
+1b933a960fa95ecf7b64e2653685814c0d36bb8c data/esmod/advancement/recipes/misc/rosium_leggings.json
 1739ba0d248063289ebfc0892882438a51fe89b1 data/esmod/advancement/recipes/misc/rosium_nugget.json
 58614669018ec667f500292e065de59235f47329 data/esmod/advancement/recipes/redstone/bismuth_button.json
 3c3c233941614597beef733ad5091c1f6b09418f data/esmod/advancement/recipes/redstone/bismuth_door.json
@@ -61,5 +65,9 @@ bcecc660947d36ea4fdd40010fde4241eab68aab data/esmod/recipe/lunarite_block.json
 a83ee71ba70a19464086e62bcdc78f698eae0f63 data/esmod/recipe/rainbow_ingot_from_smelting_rainbow_ore.json
 19722bce3df6a83230fc7afa5889e6a6de0b8316 data/esmod/recipe/rainbow_ingot_from_smelting_raw_rainbow.json
 2c9594ee38a9696dba5a65974a9bb9b592fada6e data/esmod/recipe/rosium_block.json
+d2dc438e48155937609a8f6267769c4da77e71fd data/esmod/recipe/rosium_boots.json
+e903c54741467db086220ead7a8a01274ef1c3ef data/esmod/recipe/rosium_chestplate.json
+299f9574402bfd0401217bb793117acc1daa5cfc data/esmod/recipe/rosium_helmet.json
 bcd93c6dbffbadb92a549fb3e0dff833719e5635 data/esmod/recipe/rosium_ingot.json
+3ba6753778a51cd9a26d48530f657a089b01a56a data/esmod/recipe/rosium_leggings.json
 174387b43759db179ef565709fd321add27ee3b5 data/esmod/recipe/rosium_nugget.json

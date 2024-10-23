@@ -49,6 +49,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.LUNARITE_ORE);
         blockWithItem(ModBlocks.RAINBOW_ORE);
 
+        blockWithItem(ModBlocks.ROSIUM_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.DREAMSTONE_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.LUNARITE_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.RAINBOW_DEEPSLATE_ORE);
+
         /////////////////// BLOCKS //////////////////
         blockWithItem(ModBlocks.ROSIUM_BLOCK);
         blockWithItem(ModBlocks.DREAMSTONE_BLOCK);

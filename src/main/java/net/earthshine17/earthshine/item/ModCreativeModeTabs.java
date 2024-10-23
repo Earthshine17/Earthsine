@@ -16,77 +16,9 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ESMod.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> BISMUTH_ITEMS_TAB = CREATIVE_MODE_TAB.register("bismuth_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BISMUTH.get()))
-                    .title(Component.translatable("creativetab.esmod.bismuth_items"))
-                    .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.BISMUTH);
-                        output.accept(ModItems.RAW_BISMUTH);
-
-                        output.accept(ModItems.CHISEL);
-                        output.accept(ModItems.RADISH);
-
-                        output.accept(ModItems.FROSTFIRE_ICE);
-                        output.accept(ModItems.STARLIGHT_ASHES);
-
-                        output.accept(ModItems.BISMUTH_SWORD);
-                        output.accept(ModItems.BISMUTH_PICKAXE);
-                        output.accept(ModItems.BISMUTH_SHOVEL);
-                        output.accept(ModItems.BISMUTH_AXE);
-                        output.accept(ModItems.BISMUTH_HOE);
-                        output.accept(ModItems.BISMUTH_HAMMER);
-
-                        output.accept(ModItems.BISMUTH_HELMET);
-                        output.accept(ModItems.BISMUTH_CHESTPLATE);
-                        output.accept(ModItems.BISMUTH_LEGGINGS);
-                        output.accept(ModItems.BISMUTH_BOOTS);
-
-                        output.accept(ModItems.BISMUTH_HORSE_ARMOR);
-
-                        output.accept(ModItems.ES_SMITHING_TEMPLATE);
-
-
-
-
-
-
-
-
-                    }).build());
-
-    public static final Supplier<CreativeModeTab> BISMUTH_BLOCK_TAB = CREATIVE_MODE_TAB.register("bismuth_blocks_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BISMUTH_BLOCK))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, "bismuth_items_tab"))
-                    .title(Component.translatable("creativetab.esmod.bismuth_blocks"))
-                    .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.BISMUTH_BLOCK);
-                        output.accept(ModBlocks.BISMUTH_ORE);
-                        output.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE);
-
-                        output.accept(ModBlocks.MAGIC_BLOCK);
-
-                        output.accept(ModBlocks.BISMUTH_STAIRS);
-                        output.accept(ModBlocks.BISMUTH_SLAB);
-
-                        output.accept(ModBlocks.BISMUTH_PRESSURE_PLATE);
-                        output.accept(ModBlocks.BISMUTH_BUTTON);
-
-                        output.accept(ModBlocks.BISMUTH_FENCE);
-                        output.accept(ModBlocks.BISMUTH_FENCE_GATE);
-                        output.accept(ModBlocks.BISMUTH_WALL);
-
-                        output.accept(ModBlocks.BISMUTH_DOOR);
-                        output.accept(ModBlocks.BISMUTH_TRAPDOOR);
-
-
-
-
-
-                    }).build());
-
-    public static final Supplier<CreativeModeTab> EARTHSHONE_TAB = CREATIVE_MODE_TAB.register("earthshine_tab",
+    public static final Supplier<CreativeModeTab> EARTHSHINE_TAB = CREATIVE_MODE_TAB.register("earthshine_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ROSIUM_ORE))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, "bismuth_blocks_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, "blocks_tab"))
                     .title(Component.translatable("creativetab.esmod.earthshine"))
                     .displayItems((itemDisplayParameters, output) -> {
 
@@ -95,6 +27,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DREAMSTONE_ORE);
                         output.accept(ModBlocks.LUNARITE_ORE);
                         output.accept(ModBlocks.RAINBOW_ORE);
+
+                        output.accept(ModBlocks.ROSIUM_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.DREAMSTONE_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.LUNARITE_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.RAINBOW_DEEPSLATE_ORE);
 
                         ////////////////// BLOCKS ////////////////////
                         output.accept(ModBlocks.ROSIUM_BLOCK);
@@ -115,9 +52,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_RAINBOW);
 
                         /////////// NUGGET ///////////
-                        output.accept(ModItems.DREAMSTONE_NUGGET);
-                        output.accept(ModItems.ROSIUM_NUGGET);
-                        output.accept(ModItems.LUNARITE_NUGGET);
+                        //output.accept(ModItems.DREAMSTONE_NUGGET);
+                        //output.accept(ModItems.ROSIUM_NUGGET);
+                        //output.accept(ModItems.LUNARITE_NUGGET);
 
                         //////////////// ARMORS //////////////////
                         output.accept(ModItems.RAINBOW_CHESTPLATE);
@@ -174,7 +111,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DREAMSTONE_HAMMER);
 
                         /////////////// SMITHING /////////////////
-                        output.accept(ModItems.RAINBOW_SMITHING_TEMPLATE);
+                        output.accept(ModItems.ES_SMITHING_TEMPLATE);
 
 
 

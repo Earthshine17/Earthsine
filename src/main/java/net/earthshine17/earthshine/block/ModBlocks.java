@@ -72,6 +72,19 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
+    public static final DeferredBlock<Block> DREAMSTONE_DEEPSLATE_ORE = registerBlock("dreamstone_deepslate_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> ROSIUM_DEEPSLATE_ORE = registerBlock("rosium_deepslate_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> LUNARITE_DEEPSLATE_ORE = registerBlock("lunarite_deepslate_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> RAINBOW_DEEPSLATE_ORE = registerBlock("rainbow_deepslate_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
     /////////////////////// BLOCKS /////////////////////
     public static final DeferredBlock<Block> DREAMSTONE_BLOCK = registerBlock("dreamstone_block",
             () -> new Block(BlockBehaviour.Properties.of()

@@ -3,6 +3,88 @@
   "block.esmod.rosium_ore": "Rosium Ore",
   "block.esmod.dreamstone_ore": "Dreamstone Ore",
   "block.esmod.lunarite_ore": "Lunarite Ore",
+  "block.esmod.rainbow_ore": "Rainbow Ore",
+
+  "block.esmod.rosium_block": "Rosium Block",
+  "block.esmod.dreamstone_block": "Dreamstone Block",
+  "block.esmod.lunarite_block": "Lunarite Block",
+  "block.esmod.rainbow_block": "Rainbow Block",
+
+  "item.esmod.raw_rosium": "Raw Rosium",
+  "item.esmod.raw_lunarite": "Raw Lunarite",
+  "item.esmod.raw_dreamstone": "Raw Dreamstone",
+  "item.esmod.raw_rainbow": "Raw Rainbow",
+
+  "item.esmod.rosium_ingot": "Rosium Ingot",
+  "item.esmod.lunarite_ingot": "Lunarite Ingot",
+  "item.esmod.dreamstone_ingot": "Dreamstone Ingot",
+  "item.esmod.rainbow_ingot": "Rainbow Ingot",
+
+  "item.esmod.rosium_sword": "Rosium Sword",
+  "item.esmod.rosium_pickaxe": "Rosium Pickaxe",
+  "item.esmod.rosium_shovel": "Rosium Shovel",
+  "item.esmod.rosium_axe": "Rosium Axe",
+  "item.esmod.rosium_hoe": "Rosium Hoe",
+  "item.esmod.rosium_helmet": "Rosium Helmet",
+  "item.esmod.rosium_chestplate": "Rosium Chestplate",
+  "item.esmod.rosium_leggings": "Rosium Leggings",
+  "item.esmod.rosium_boots": "Rosium Boots",
+  "item.esmod.rosium_hammer": "Rosium Hammer",
+  "item.esmod.rosium_horse_armor": "Rosium Horse Armor",
+
+  "item.esmod.lunarite_sword": "Lunarite Sword",
+  "item.esmod.lunarite_pickaxe": "Lunarite Pickaxe",
+  "item.esmod.lunarite_shovel": "Lunarite Shovel",
+  "item.esmod.lunarite_axe": "Lunarite Axe",
+  "item.esmod.lunarite_hoe": "Lunarite Hoe",
+  "item.esmod.lunarite_helmet": "Lunarite Helmet",
+  "item.esmod.lunarite_chestplate": "Lunarite Chestplate",
+  "item.esmod.lunarite_leggings": "Lunarite Leggings",
+  "item.esmod.lunarite_boots": "Lunarite Boots",
+  "item.esmod.lunarite_hammer": "Lunarite Hammer",
+  "item.esmod.lunarite_horse_armor": "Lunarite Horse Armor",
+
+  "item.esmod.dreamstone_sword": "Dreamstone Sword",
+  "item.esmod.dreamstone_pickaxe": "Dreamstone Pickaxe",
+  "item.esmod.dreamstone_shovel": "Dreamstone Shovel",
+  "item.esmod.dreamstone_axe": "Dreamstone Axe",
+  "item.esmod.dreamstone_hoe": "Dreamstone Hoe",
+  "item.esmod.dreamstone_helmet": "Dreamstone Helmet",
+  "item.esmod.dreamstone_chestplate": "Dreamstone Chestplate",
+  "item.esmod.dreamstone_leggings": "Dreamstone Leggings",
+  "item.esmod.dreamstone_boots": "Dreamstone Boots",
+  "item.esmod.dreamstone_hammer": "Dreamstone Hammer",
+  "item.esmod.dreamstone_horse_armor": "Dreamstone Horse Armor",
+
+  "item.esmod.rainbow_sword": "Rainbow Sword",
+  "item.esmod.rainbow_pickaxe": "Rainbow Pickaxe",
+  "item.esmod.rainbow_shovel": "Rainbow Shovel",
+  "item.esmod.rainbow_axe": "Rainbow Axe",
+  "item.esmod.rainbow_hoe": "Rainbow Hoe",
+  "item.esmod.rainbow_helmet": "Rainbow Helmet",
+  "item.esmod.rainbow_chestplate": "Rainbow Chestplate",
+  "item.esmod.rainbow_leggings": "Rainbow Leggings",
+  "item.esmod.rainbow_boots": "Rainbow Boots",
+  "item.esmod.rainbow_hammer": "Rainbow Hammer",
+  "item.esmod.rainbow_horse_armor": "Rainbow Horse Armor",
+
+  "item.esmod.es_armor_trim_smithing_template": "ES Trim Template",
+
+  "creativetab.esmod.earthshine_tab": "Earthshine",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -28,7 +110,7 @@
   "item.esmod.bismuth_hammer": "Bismuth Hammer",
 
   "item.esmod.bismuth_horse_armor": "Bismuth Horse Armor",
-  "item.esmod.es_armor_trim_smithing_template": "ES Trim Template",
+
 
   "block.esmod.bismuth_block": "Block of Bismuth",
   "block.esmod.bismuth_ore": "Bismuth Ore",

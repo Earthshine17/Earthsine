@@ -20,7 +20,6 @@ public class ModTrimPatterns {
 
     public static void bootstrap(BootstrapContext<TrimPattern> context) {
         register(context, ModItems.ES_SMITHING_TEMPLATE, ES);
-        register(context, ModItems.RAINBOW_SMITHING_TEMPLATE, RAINBOW);
 
         //////////////// TRIMS /////////////////////
         /*public static final ResourceKey<TrimPattern> RAINBOW = ResourceKey.create(Registries.TRIM_PATTERN,

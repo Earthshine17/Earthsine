@@ -78,8 +78,7 @@ public class ModItems {
             () -> new AnimalArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
                     false, new Item.Properties().stacksTo(1)));
 
-    public static final DeferredItem<Item> ES_SMITHING_TEMPLATE = ITEMS.register("es_armor_trim_smithing_template",
-            () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, "esmod")));
+
 
 
     /////////// INGOTS ///////////
@@ -266,8 +265,8 @@ public class ModItems {
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.DREAMSTONE, 7F, -3.5f))));
 
     ////////////////////////////// SMITHING //////////////////////////////////
-    public static final DeferredItem<Item> RAINBOW_SMITHING_TEMPLATE = ITEMS.register("rainbow_armor_trim_smithing_template",
-            () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, "rainbow")));
+    public static final DeferredItem<Item> ES_SMITHING_TEMPLATE = ITEMS.register("es_armor_trim_smithing_template",
+            () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, "esmod")));
 
     ///////////////////////////// ENCHANTING //////////////////////////////////
 

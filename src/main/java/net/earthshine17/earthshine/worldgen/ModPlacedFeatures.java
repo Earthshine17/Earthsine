@@ -16,15 +16,27 @@ import net.minecraft.world.level.levelgen.placement.PlacementModifier;
 import java.util.List;
 
 public class ModPlacedFeatures {
-    public static ResourceKey<PlacedFeature> EXAMPLE_ORE = createKey("example_ore");
+    public static ResourceKey<PlacedFeature> RAINBOW_ORE = createKey("rainbow_ore");
+    public static ResourceKey<PlacedFeature> ROSIUM_ORE = createKey("rosium_ore");
+    public static ResourceKey<PlacedFeature> LUNARITE_ORE = createKey("lunarite_ore");
+    public static ResourceKey<PlacedFeature> DREAMSTONE_ORE = createKey("dreamstone_ore");
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
-        Holder<ConfiguredFeature<?, ?>> holder =
-                configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_EXAMPLE_ORE);
+        Holder<ConfiguredFeature<?, ?>> holderRainbow =
+                configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_RAINBOW_ORE);
+        Holder<ConfiguredFeature<?, ?>> holderRosium =
+                configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_ROSIUM_ORE);
+        Holder<ConfiguredFeature<?, ?>> holderLunarite =
+                configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_LUNARITE_ORE);
+        Holder<ConfiguredFeature<?, ?>> holderDreamstone =
+                configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_DREAMSTONE_ORE);
 
-        register(context, EXAMPLE_ORE, holder, ModOrePlacement.commonOrePlacements(3, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(20))));
+        register(context, RAINBOW_ORE, holderRainbow, ModOrePlacement.commonOrePlacements(32, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(100))));
+        register(context, ROSIUM_ORE, holderRosium, ModOrePlacement.commonOrePlacements(32, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(100))));
+        register(context, LUNARITE_ORE, holderLunarite, ModOrePlacement.commonOrePlacements(32, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(100))));
+        register(context, DREAMSTONE_ORE, holderDreamstone, ModOrePlacement.commonOrePlacements(32, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(100))));
     }
 
 

@@ -47,6 +47,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.LUNARITE_ORE.get())
                 .add(ModBlocks.RAINBOW_ORE.get())
 
+                .add(ModBlocks.ROSIUM_DEEPSLATE_ORE.get())
+                .add(ModBlocks.DREAMSTONE_DEEPSLATE_ORE.get())
+                .add(ModBlocks.LUNARITE_DEEPSLATE_ORE.get())
+                .add(ModBlocks.RAINBOW_DEEPSLATE_ORE.get())
+
                 .add(ModBlocks.LUNARITE_BLOCK.get())
                 .add(ModBlocks.DREAMSTONE_BLOCK.get())
                 .add(ModBlocks.ROSIUM_BLOCK.get())
