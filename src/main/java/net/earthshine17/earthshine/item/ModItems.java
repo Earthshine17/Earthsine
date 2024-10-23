@@ -269,6 +269,8 @@ public class ModItems {
     public static final DeferredItem<Item> RAINBOW_SMITHING_TEMPLATE = ITEMS.register("rainbow_armor_trim_smithing_template",
             () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, "rainbow")));
 
+    ///////////////////////////// ENCHANTING //////////////////////////////////
+
 
 
     public static void register(IEventBus eventBus){

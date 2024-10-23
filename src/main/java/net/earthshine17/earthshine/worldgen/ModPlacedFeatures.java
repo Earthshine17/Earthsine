@@ -16,16 +16,14 @@ import net.minecraft.world.level.levelgen.placement.PlacementModifier;
 import java.util.List;
 
 public class ModPlacedFeatures {
-
-    protected static ResourceKey<PlacedFeature> EXAMPLE_ORE = createKey("example_ore");
+    public static ResourceKey<PlacedFeature> EXAMPLE_ORE = createKey("example_ore");
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
-        HolderGetter<ConfiguredFeature<?,?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
+        HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
-        Holder<ConfiguredFeature<?,? >> holder =
+        Holder<ConfiguredFeature<?, ?>> holder =
                 configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_EXAMPLE_ORE);
 
-        // 3 veins per chunk, between y -64 and 20
         register(context, EXAMPLE_ORE, holder, ModOrePlacement.commonOrePlacements(3, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(20))));
     }
 
@@ -34,8 +32,7 @@ public class ModPlacedFeatures {
         return ResourceKey.create(Registries.PLACED_FEATURE, ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, name));
     }
 
-
-    private static void register(BootstrapContext<PlacedFeature> context, ResourceKey<PlacedFeature> key, Holder<ConfiguredFeature<?,?>> feature, List<PlacementModifier> placements) {
-        context.register(key, new PlacedFeature(feature, placements));
+    private static void register(BootstrapContext<PlacedFeature> context, ResourceKey<PlacedFeature> key, Holder<ConfiguredFeature<?, ?>> feature, List<PlacementModifier> placementModifiers) {
+        context.register(key, new PlacedFeature(feature, placementModifiers));
     }
 }

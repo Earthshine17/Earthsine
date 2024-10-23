@@ -15,8 +15,8 @@ import net.neoforged.neoforge.common.world.BiomeModifier;
 import net.neoforged.neoforge.common.world.BiomeModifiers;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
 
-public class ModBiomeModifiers {
-    protected static ResourceKey<BiomeModifier> ADD_EXAMPLE_ORE = registerKey("add_example_ore");
+public class ModBiomesModifiers {
+    protected static ResourceKey<BiomeModifier> ADD_EXAMPLE_ORE = createKey("add_example_ore");
 
     public static void bootstrap(BootstrapContext<BiomeModifier> context) {
         HolderGetter<PlacedFeature> placedFeatures = context.lookup(Registries.PLACED_FEATURE);
@@ -27,11 +27,12 @@ public class ModBiomeModifiers {
                 new BiomeModifiers.AddFeaturesBiomeModifier(
                         biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
                         HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.EXAMPLE_ORE)),
-                        GenerationStep.Decoration.UNDERGROUND_ORES));
+                        GenerationStep.Decoration.UNDERGROUND_ORES
+                )
+        );
     }
 
-    private static ResourceKey<BiomeModifier> registerKey(String name) {
-        return ResourceKey.create(
-                NeoForgeRegistries.Keys.BIOME_MODIFIERS, ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, name));
+    private static ResourceKey<BiomeModifier> createKey(String name) {
+        return ResourceKey.create(NeoForgeRegistries.Keys.BIOME_MODIFIERS, ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, name));
     }
 }
