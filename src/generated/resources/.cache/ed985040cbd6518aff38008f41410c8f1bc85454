@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-23T12:29:48.2643181	Item Models: esmod
+// 1.21.1	2024-10-28T08:34:22.6796661	Item Models: esmod
 f0b359d0faf20b58127d67d56cca571cec9e74b7 assets/esmod/models/item/bismuth.json
 02676bea3aab81b1f9f3ed66d3aa5c23ebe22dfd assets/esmod/models/item/bismuth_axe.json
 088510ab10b39d45ef61e07e541b144f1851208f assets/esmod/models/item/bismuth_boots.json
@@ -78,6 +78,7 @@ a12e43aaafad19e48aa96c0e270590ea309684b2 assets/esmod/models/item/dreamstone_che
 d3c2648df6901662b2424ab1f2575ffb76026fb3 assets/esmod/models/item/dreamstone_chestplate_netherite_trim.json
 a0da89b54af83404431f085645f34b0b384cb3d0 assets/esmod/models/item/dreamstone_chestplate_quartz_trim.json
 a8c74e9f0898917f7199eefab29a3a66afe9a918 assets/esmod/models/item/dreamstone_chestplate_redstone_trim.json
+8b25b6201b2ab527e32d6ae67c9e352580a394fe assets/esmod/models/item/dreamstone_dust.json
 8587e736ff7eccf66e871c705797ca1b926b4daa assets/esmod/models/item/dreamstone_hammer.json
 af41e548ee77112c859b62e787c27b43b55ca54f assets/esmod/models/item/dreamstone_helmet.json
 d5b3c40b5167adb1a24985ba004f100ba3141585 assets/esmod/models/item/dreamstone_helmet_amethyst_trim.json
@@ -134,6 +135,7 @@ f1e2fc9849e56a4bf09912d9416def2fb6514e8d assets/esmod/models/item/lunarite_chest
 385098b38f02c5611e7e609a473c761745633b98 assets/esmod/models/item/lunarite_chestplate_netherite_trim.json
 2282ee74059008117cca910ec0cbe88f6540301e assets/esmod/models/item/lunarite_chestplate_quartz_trim.json
 03ed1625d1897936092f879a813122f537c2dbcf assets/esmod/models/item/lunarite_chestplate_redstone_trim.json
+b8c2f550e2a76ea4401bed7b0569d10839fa78b0 assets/esmod/models/item/lunarite_dust.json
 4e197da728619bbd07fde13448fdbf855ede65a6 assets/esmod/models/item/lunarite_hammer.json
 2f0b85ef0759fb542b40e82607be9c9fe1cd627e assets/esmod/models/item/lunarite_helmet.json
 035fb2a8e573157ca999a0542e3a8943c466a092 assets/esmod/models/item/lunarite_helmet_amethyst_trim.json
@@ -189,6 +191,7 @@ c92b2f2d22f9216875e4fcfc3cff10921e48eb8d assets/esmod/models/item/rainbow_chestp
 4902da9f9138011655a4e876db895ff70bd8b2a0 assets/esmod/models/item/rainbow_chestplate_netherite_trim.json
 017a24988834121fcad25c36d858a7d27eb7f88f assets/esmod/models/item/rainbow_chestplate_quartz_trim.json
 e22809c7f16c3d898cd4d959ad563ba2b4913b9f assets/esmod/models/item/rainbow_chestplate_redstone_trim.json
+adc7e7b2744ec00109301f7d8bf17f8ee41ed205 assets/esmod/models/item/rainbow_dust.json
 0537c62d826efcadd92cb9970e21fde9ecd5483a assets/esmod/models/item/rainbow_hammer.json
 b6bb9f806c197fd3326d7fcd0a01e3bf63e6293b assets/esmod/models/item/rainbow_helmet.json
 ddb15653f2d36bc9bf6673398f1efc20871dafc5 assets/esmod/models/item/rainbow_helmet_amethyst_trim.json
@@ -247,6 +250,7 @@ a8b5353e4273163e59d2f208dd700da256034fa7 assets/esmod/models/item/rosium_chestpl
 87980d1ced8a978f0f48ef221f9e08337af7d97d assets/esmod/models/item/rosium_chestplate_netherite_trim.json
 6a97f45dd30a256cb3853a5e022badc07a2f2240 assets/esmod/models/item/rosium_chestplate_quartz_trim.json
 129bb571f7401b7debfeeb8a11b67296a8ea3431 assets/esmod/models/item/rosium_chestplate_redstone_trim.json
+d9395a947daa00b54ad80caf92618e9e2cae2279 assets/esmod/models/item/rosium_dust.json
 4475538fd751f392a95b1dd94b1719d415c01535 assets/esmod/models/item/rosium_hammer.json
 b38b21c73c109f49f78a5d2f9ec5c1faf5359cee assets/esmod/models/item/rosium_helmet.json
 dd24ffc089a77d3a51e952defd9d9bbf9b4d3908 assets/esmod/models/item/rosium_helmet_amethyst_trim.json

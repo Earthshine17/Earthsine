@@ -58,7 +58,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RAINBOW_WALL);
 
 
-                        /////////// INGOTS ///////////
+                        /////////// DUST ///////////
                         output.accept(ModItems.DREAMSTONE_DUST);
                         output.accept(ModItems.ROSIUM_DUST);
                         output.accept(ModItems.LUNARITE_DUST);

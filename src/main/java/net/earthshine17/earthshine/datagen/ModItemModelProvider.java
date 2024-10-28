@@ -84,6 +84,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RAW_DREAMSTONE.get());
         basicItem(ModItems.RAW_RAINBOW.get());
 
+        //////////////////// RAW /////////////////////
+        basicItem(ModItems.ROSIUM_DUST.get());
+        basicItem(ModItems.LUNARITE_DUST.get());
+        basicItem(ModItems.DREAMSTONE_DUST.get());
+        basicItem(ModItems.RAINBOW_DUST.get());
+
         //////////////////// NUGGETS /////////////////////.
         basicItem(ModItems.ROSIUM_NUGGET.get());
         basicItem(ModItems.LUNARITE_NUGGET.get());
