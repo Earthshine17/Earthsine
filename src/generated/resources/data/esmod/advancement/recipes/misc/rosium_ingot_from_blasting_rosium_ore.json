@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rosium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "esmod:rosium_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "esmod:rosium_ingot_from_blasting_rosium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rosium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "esmod:rosium_ingot_from_blasting_rosium_ore"
+    ]
+  }
+}

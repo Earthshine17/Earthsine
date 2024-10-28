@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_rainbow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "esmod:raw_rainbow"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "esmod:rainbow_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_rainbow"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "esmod:rainbow_dust"
+    ]
+  }
+}

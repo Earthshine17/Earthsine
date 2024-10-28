@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "rosium_ingot",
+  "ingredient": {
+    "item": "esmod:rosium_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "esmod:rosium_ingot"
+  }
+}

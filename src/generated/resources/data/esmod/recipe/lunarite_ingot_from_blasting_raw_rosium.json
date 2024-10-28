@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "lunarite_ingot",
+  "ingredient": {
+    "item": "esmod:raw_rosium"
+  },
+  "result": {
+    "count": 1,
+    "id": "esmod:lunarite_ingot"
+  }
+}

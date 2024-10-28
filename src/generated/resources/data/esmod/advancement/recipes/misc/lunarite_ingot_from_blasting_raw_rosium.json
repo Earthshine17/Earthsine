@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_rosium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "esmod:raw_rosium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "esmod:lunarite_ingot_from_blasting_raw_rosium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_rosium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "esmod:lunarite_ingot_from_blasting_raw_rosium"
+    ]
+  }
+}
