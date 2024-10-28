@@ -132,29 +132,41 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_dreamstone_block", has(ModBlocks.RAINBOW_BLOCK)).save(recipeOutput);
 
         ///////////////// TEMP DUST //////////////////
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BISMUTH.get(), 9)
-                .requires(ModBlocks.BISMUTH_BLOCK)
-                .unlockedBy("has_bismuth_block", has(ModBlocks.BISMUTH_BLOCK)).save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ROSIUM_DUST.get(), 2)
+                .requires(ModItems.RAW_ROSIUM.get())
+                .unlockedBy("has_raw_rosium", has(ModItems.RAW_ROSIUM.get())).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.LUNARITE_DUST.get(), 2)
+                .requires(ModItems.RAW_LUNARITE.get())
+                .unlockedBy("has_raw_lunarite", has(ModItems.RAW_LUNARITE.get())).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DREAMSTONE_DUST.get(), 2)
+                .requires(ModItems.RAW_DREAMSTONE.get())
+                .unlockedBy("has_raw_dreamstone", has(ModItems.RAW_DREAMSTONE.get())).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAINBOW_DUST.get(), 2)
+                .requires(ModItems.RAW_RAINBOW.get())
+                .unlockedBy("has_raw_rainbow", has(ModItems.RAW_RAINBOW.get())).save(recipeOutput);
 
         ///////////////// SMELTING ///////////////////
 
         List<ItemLike> RAINBOW_SMELTABLES = List.of(ModItems.RAW_RAINBOW,
-                ModBlocks.RAINBOW_ORE);
+                ModBlocks.RAINBOW_ORE, ModItems.RAINBOW_DUST);
         oreSmelting(recipeOutput, RAINBOW_SMELTABLES, RecipeCategory.MISC, ModItems.RAINBOW_INGOT.get(), 0.25f, 200, "rainbow_ingot");
         oreBlasting(recipeOutput, RAINBOW_SMELTABLES, RecipeCategory.MISC, ModItems.RAINBOW_INGOT.get(), 0.25f, 100, "rainbow_ingot");
 
         List<ItemLike> ROSIUM_SMELTABLES = List.of(ModItems.RAW_ROSIUM,
-                ModBlocks.ROSIUM_ORE);
+                ModBlocks.ROSIUM_ORE, ModItems.ROSIUM_DUST);
         oreSmelting(recipeOutput, ROSIUM_SMELTABLES, RecipeCategory.MISC, ModItems.ROSIUM_INGOT.get(), 0.25f, 200, "rosium_ingot");
         oreBlasting(recipeOutput, ROSIUM_SMELTABLES, RecipeCategory.MISC, ModItems.ROSIUM_INGOT.get(), 0.25f, 100, "rosium_ingot");
 
         List<ItemLike> LUNARITE_SMELTABLES = List.of(ModItems.RAW_ROSIUM,
-                ModBlocks.LUNARITE_ORE);
+                ModBlocks.LUNARITE_ORE, ModItems.LUNARITE_DUST);
         oreSmelting(recipeOutput, LUNARITE_SMELTABLES, RecipeCategory.MISC, ModItems.LUNARITE_INGOT.get(), 0.25f, 200, "lunarite_ingot");
         oreBlasting(recipeOutput, LUNARITE_SMELTABLES, RecipeCategory.MISC, ModItems.LUNARITE_INGOT.get(), 0.25f, 100, "lunarite_ingot");
 
         List<ItemLike> DREAMSTONE_SMELTABLES = List.of(ModItems.RAW_ROSIUM,
-                ModBlocks.DREAMSTONE_ORE);
+                ModBlocks.DREAMSTONE_ORE, ModItems.DREAMSTONE_DUST);
         oreSmelting(recipeOutput, DREAMSTONE_SMELTABLES, RecipeCategory.MISC, ModItems.DREAMSTONE_INGOT.get(), 0.25f, 200, "dreamstone_ingot");
         oreBlasting(recipeOutput, DREAMSTONE_SMELTABLES, RecipeCategory.MISC, ModItems.DREAMSTONE_INGOT.get(), 0.25f, 100, "dreamstone_ingot");
 
