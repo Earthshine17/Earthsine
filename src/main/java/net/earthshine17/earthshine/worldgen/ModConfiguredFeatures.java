@@ -40,10 +40,10 @@ public class ModConfiguredFeatures {
                 List.of(OreConfiguration.target(stoneReplacable, ModBlocks.DREAMSTONE_ORE.get().defaultBlockState()),
                         OreConfiguration.target(deepslateReplacable, ModBlocks.DREAMSTONE_DEEPSLATE_ORE.get().defaultBlockState()));
 
-        register(context, OVERWORLD_RAINBOW_ORE, Feature.ORE, new OreConfiguration(rainbowOre, 16));
-        register(context, OVERWORLD_ROSIUM_ORE, Feature.ORE, new OreConfiguration(rosiumOre, 16));
-        register(context, OVERWORLD_LUNARITE_ORE, Feature.ORE, new OreConfiguration(lunariteOre, 16));
-        register(context, OVERWORLD_DREAMSTONE_ORE, Feature.ORE, new OreConfiguration(dreamstoneOre, 16));
+        register(context, OVERWORLD_RAINBOW_ORE, Feature.ORE, new OreConfiguration(rainbowOre, 2));
+        register(context, OVERWORLD_ROSIUM_ORE, Feature.ORE, new OreConfiguration(rosiumOre, 2));
+        register(context, OVERWORLD_LUNARITE_ORE, Feature.ORE, new OreConfiguration(lunariteOre, 2));
+        register(context, OVERWORLD_DREAMSTONE_ORE, Feature.ORE, new OreConfiguration(dreamstoneOre, 2));
     }
 
     private static ResourceKey<ConfiguredFeature<?, ?>> createKey(String name) {

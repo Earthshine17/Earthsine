@@ -33,10 +33,10 @@ public class ModPlacedFeatures {
         Holder<ConfiguredFeature<?, ?>> holderDreamstone =
                 configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_DREAMSTONE_ORE);
 
-        register(context, RAINBOW_ORE, holderRainbow, ModOrePlacement.commonOrePlacements(32, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(100))));
-        register(context, ROSIUM_ORE, holderRosium, ModOrePlacement.commonOrePlacements(32, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(100))));
-        register(context, LUNARITE_ORE, holderLunarite, ModOrePlacement.commonOrePlacements(32, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(100))));
-        register(context, DREAMSTONE_ORE, holderDreamstone, ModOrePlacement.commonOrePlacements(32, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(100))));
+        register(context, RAINBOW_ORE, holderRainbow, ModOrePlacement.commonOrePlacements(6, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(100))));
+        register(context, ROSIUM_ORE, holderRosium, ModOrePlacement.commonOrePlacements(6, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(100))));
+        register(context, LUNARITE_ORE, holderLunarite, ModOrePlacement.commonOrePlacements(6, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(100))));
+        register(context, DREAMSTONE_ORE, holderDreamstone, ModOrePlacement.commonOrePlacements(6, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(100))));
     }
 
 

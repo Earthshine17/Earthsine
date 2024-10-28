@@ -131,12 +131,32 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.RAINBOW_BLOCK)
                 .unlockedBy("has_dreamstone_block", has(ModBlocks.RAINBOW_BLOCK)).save(recipeOutput);
 
+        ///////////////// TEMP DUST //////////////////
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BISMUTH.get(), 9)
+                .requires(ModBlocks.BISMUTH_BLOCK)
+                .unlockedBy("has_bismuth_block", has(ModBlocks.BISMUTH_BLOCK)).save(recipeOutput);
+
         ///////////////// SMELTING ///////////////////
 
         List<ItemLike> RAINBOW_SMELTABLES = List.of(ModItems.RAW_RAINBOW,
                 ModBlocks.RAINBOW_ORE);
         oreSmelting(recipeOutput, RAINBOW_SMELTABLES, RecipeCategory.MISC, ModItems.RAINBOW_INGOT.get(), 0.25f, 200, "rainbow_ingot");
         oreBlasting(recipeOutput, RAINBOW_SMELTABLES, RecipeCategory.MISC, ModItems.RAINBOW_INGOT.get(), 0.25f, 100, "rainbow_ingot");
+
+        List<ItemLike> ROSIUM_SMELTABLES = List.of(ModItems.RAW_ROSIUM,
+                ModBlocks.ROSIUM_ORE);
+        oreSmelting(recipeOutput, ROSIUM_SMELTABLES, RecipeCategory.MISC, ModItems.ROSIUM_INGOT.get(), 0.25f, 200, "rosium_ingot");
+        oreBlasting(recipeOutput, ROSIUM_SMELTABLES, RecipeCategory.MISC, ModItems.ROSIUM_INGOT.get(), 0.25f, 100, "rosium_ingot");
+
+        List<ItemLike> LUNARITE_SMELTABLES = List.of(ModItems.RAW_ROSIUM,
+                ModBlocks.LUNARITE_ORE);
+        oreSmelting(recipeOutput, LUNARITE_SMELTABLES, RecipeCategory.MISC, ModItems.LUNARITE_INGOT.get(), 0.25f, 200, "lunarite_ingot");
+        oreBlasting(recipeOutput, LUNARITE_SMELTABLES, RecipeCategory.MISC, ModItems.LUNARITE_INGOT.get(), 0.25f, 100, "lunarite_ingot");
+
+        List<ItemLike> DREAMSTONE_SMELTABLES = List.of(ModItems.RAW_ROSIUM,
+                ModBlocks.DREAMSTONE_ORE);
+        oreSmelting(recipeOutput, DREAMSTONE_SMELTABLES, RecipeCategory.MISC, ModItems.DREAMSTONE_INGOT.get(), 0.25f, 200, "dreamstone_ingot");
+        oreBlasting(recipeOutput, DREAMSTONE_SMELTABLES, RecipeCategory.MISC, ModItems.DREAMSTONE_INGOT.get(), 0.25f, 100, "dreamstone_ingot");
 
         ///////////////// PICKAXE ////////////////////
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_PICKAXE.get())

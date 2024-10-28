@@ -5,10 +5,30 @@
   "block.esmod.lunarite_ore": "Lunarite Ore",
   "block.esmod.rainbow_ore": "Rainbow Ore",
 
+  "block.esmod.rosium_deepslate_ore": "Rosium Ore",
+  "block.esmod.dreamstone_deepslate_ore": "Dreamstone Ore",
+  "block.esmod.lunarite_deepslate_ore": "Lunarite Ore",
+  "block.esmod.rainbow_deepslate_ore": "Rainbow Ore",
+
   "block.esmod.rosium_block": "Rosium Block",
   "block.esmod.dreamstone_block": "Dreamstone Block",
   "block.esmod.lunarite_block": "Lunarite Block",
   "block.esmod.rainbow_block": "Rainbow Block",
+
+  "block.esmod.rosium_stairs": "Rosium Stairs",
+  "block.esmod.lunarite_stairs": "Lunarite Stairs",
+  "block.esmod.dreamstone_stairs": "Dreamstone Stairs",
+  "block.esmod.rainbow_stairs": "Rainbow Stairs",
+
+  "block.esmod.rosium_slab": "Rosium Slab",
+  "block.esmod.lunarite_slab": "Lunarite Slab",
+  "block.esmod.dreamstone_slab": "Dreamstone Slab",
+  "block.esmod.rainbow_slab": "Rainbow Slab",
+
+  "block.esmod.rosium_wall": "Rosium Wall",
+  "block.esmod.lunarite_wall": "Lunarite Wall",
+  "block.esmod.dreamstone_wall": "Dreamstone Wall",
+  "block.esmod.rainbow_wall": "Rainbow Wall",
 
   "item.esmod.raw_rosium": "Raw Rosium",
   "item.esmod.raw_lunarite": "Raw Lunarite",

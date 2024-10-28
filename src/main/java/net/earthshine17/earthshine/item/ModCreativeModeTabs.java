@@ -18,8 +18,8 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> EARTHSHINE_TAB = CREATIVE_MODE_TAB.register("earthshine_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ROSIUM_ORE))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, "blocks_tab"))
-                    .title(Component.translatable("creativetab.esmod.earthshine"))
+                    //.withTabsBefore(ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, "blocks_tab"))
+                    .title(Component.translatable("creativetab.esmod.earthshine_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
 
                         ////////////////// ORES ////////////////////
@@ -57,6 +57,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DREAMSTONE_WALL);
                         output.accept(ModBlocks.RAINBOW_WALL);
 
+
+                        /////////// INGOTS ///////////
+                        output.accept(ModItems.DREAMSTONE_DUST);
+                        output.accept(ModItems.ROSIUM_DUST);
+                        output.accept(ModItems.LUNARITE_DUST);
+                        output.accept(ModItems.RAINBOW_DUST);
 
                         /////////// INGOTS ///////////
                         output.accept(ModItems.DREAMSTONE_INGOT);

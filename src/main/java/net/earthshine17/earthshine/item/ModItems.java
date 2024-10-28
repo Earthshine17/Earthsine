@@ -80,6 +80,16 @@ public class ModItems {
 
 
 
+    /////////// DUSTS ////////////
+    public static final DeferredItem<Item> ROSIUM_DUST = ITEMS.register("rosium_dust",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> LUNARITE_DUST = ITEMS.register("lunarite_dust",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DREAMSTONE_DUST = ITEMS.register("dreamstone_dust",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAINBOW_DUST = ITEMS.register("rainbow_dust",
+            () -> new Item(new Item.Properties()));
+
 
     /////////// INGOTS ///////////
     public static final DeferredItem<Item> ROSIUM_INGOT = ITEMS.register("rosium_ingot",
