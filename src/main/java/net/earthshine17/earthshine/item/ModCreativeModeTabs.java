@@ -63,12 +63,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ROSIUM_DUST);
                         output.accept(ModItems.LUNARITE_DUST);
                         output.accept(ModItems.RAINBOW_DUST);
+                        output.accept(ModItems.EARTHSHINE_ALLOY_DUST);
 
                         /////////// INGOTS ///////////
                         output.accept(ModItems.DREAMSTONE_INGOT);
                         output.accept(ModItems.ROSIUM_INGOT);
                         output.accept(ModItems.LUNARITE_INGOT);
                         output.accept(ModItems.RAINBOW_INGOT);
+                        output.accept(ModItems.EARTHSHINE_ALLOY_INGOT);
 
                         /////////// RAW MATERIAL ///////////
                         output.accept(ModItems.RAW_DREAMSTONE);
@@ -82,6 +84,12 @@ public class ModCreativeModeTabs {
                         //output.accept(ModItems.LUNARITE_NUGGET);
 
                         //////////////// ARMORS //////////////////
+                        output.accept(ModItems.EARTHSHINE_ALLOY_CHESTPLATE);
+                        output.accept(ModItems.EARTHSHINE_ALLOY_BOOTS);
+                        output.accept(ModItems.EARTHSHINE_ALLOY_LEGGINGS);
+                        output.accept(ModItems.EARTHSHINE_ALLOY_HELMET);
+                        output.accept(ModItems.EARTHSHINE_ALLOY_HORSE_ARMOR);
+
                         output.accept(ModItems.RAINBOW_CHESTPLATE);
                         output.accept(ModItems.RAINBOW_BOOTS);
                         output.accept(ModItems.RAINBOW_LEGGINGS);
@@ -134,6 +142,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DREAMSTONE_AXE);
                         output.accept(ModItems.DREAMSTONE_HOE);
                         output.accept(ModItems.DREAMSTONE_HAMMER);
+
+                        output.accept(ModItems.EARTHSHINE_ALLOY_SWORD);
+                        output.accept(ModItems.EARTHSHINE_ALLOY_PICKAXE);
+                        output.accept(ModItems.EARTHSHINE_ALLOY_SHOVEL);
+                        output.accept(ModItems.EARTHSHINE_ALLOY_AXE);
+                        output.accept(ModItems.EARTHSHINE_ALLOY_HOE);
+                        output.accept(ModItems.EARTHSHINE_ALLOY_HAMMER);
+
 
                         /////////////// SMITHING /////////////////
                         output.accept(ModItems.ES_SMITHING_TEMPLATE);

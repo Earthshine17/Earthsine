@@ -27,6 +27,16 @@ public class ModArmorMaterials {
             }), 16, 2f, 0.1f, () -> ModItems.BISMUTH.get());
 
     //////////////// ARMOR MATERIALS ////////////////////
+
+    public static final Holder<ArmorMaterial> EARTHSHINE_ALLOY_ARMOR_MATERIAL = register("earthshine_alloy",
+            Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 5);
+                attribute.put(ArmorItem.Type.LEGGINGS, 8);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 10);
+                attribute.put(ArmorItem.Type.HELMET, 5);
+                attribute.put(ArmorItem.Type.BODY, 13);
+            }), 16, 4f, 0.5f, () -> ModItems.EARTHSHINE_ALLOY_INGOT.get());
+
     public static final Holder<ArmorMaterial> RAINBOW_ARMOR_MATERIAL = register("rainbow",
             Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
                 attribute.put(ArmorItem.Type.BOOTS, 3);

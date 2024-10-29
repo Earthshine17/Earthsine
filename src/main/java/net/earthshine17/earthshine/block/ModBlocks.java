@@ -98,6 +98,9 @@ public class ModBlocks {
     public static final DeferredBlock<Block> RAINBOW_BLOCK = registerBlock("rainbow_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    /*public static final DeferredBlock<Block> EARTHSHINE_ALLOY_BLOCK = registerBlock("earthshine_alloy_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.ANCIENT_DEBRIS)));*/
 
     ////////////////////// SLABS ////////////////////////////
     public static final DeferredBlock<SlabBlock> ROSIUM_SLAB = registerBlock("rosium_slab",

@@ -54,6 +54,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         ///////////////////// ARMORS /////////////////////
         this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.EARTHSHINE_ALLOY_HELMET.get())
+                .add(ModItems.EARTHSHINE_ALLOY_CHESTPLATE.get())
+                .add(ModItems.EARTHSHINE_ALLOY_LEGGINGS.get())
+                .add(ModItems.EARTHSHINE_ALLOY_BOOTS.get());
+
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.RAINBOW_HELMET.get())
                 .add(ModItems.RAINBOW_CHESTPLATE.get())
                 .add(ModItems.RAINBOW_LEGGINGS.get())
@@ -121,6 +127,17 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.DREAMSTONE_AXE.get());
         tag(ItemTags.HOES)
                 .add(ModItems.DREAMSTONE_HOE.get());
+
+        tag(ItemTags.SWORDS)
+                .add(ModItems.EARTHSHINE_ALLOY_SWORD.get());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.EARTHSHINE_ALLOY_PICKAXE.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.EARTHSHINE_ALLOY_SHOVEL.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.EARTHSHINE_ALLOY_AXE.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.EARTHSHINE_ALLOY_HOE.get());
 
         /////////////////// SMITHING //////////////////////
         this.tag(ItemTags.TRIM_MATERIALS)

@@ -90,6 +90,9 @@ public class ModItems {
     public static final DeferredItem<Item> RAINBOW_DUST = ITEMS.register("rainbow_dust",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> EARTHSHINE_ALLOY_DUST = ITEMS.register("earthshine_alloy_dust",
+            () -> new Item(new Item.Properties()));
+
 
     /////////// INGOTS ///////////
     public static final DeferredItem<Item> ROSIUM_INGOT = ITEMS.register("rosium_ingot",
@@ -99,6 +102,9 @@ public class ModItems {
     public static final DeferredItem<Item> DREAMSTONE_INGOT = ITEMS.register("dreamstone_ingot",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAINBOW_INGOT = ITEMS.register("rainbow_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> EARTHSHINE_ALLOY_INGOT = ITEMS.register("earthshine_alloy_ingot",
             () -> new Item(new Item.Properties()));
 
 
@@ -121,6 +127,24 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     ////////////////// ARMORS ///////////////////////
+
+    ////EARTHSHINE
+    public static final DeferredItem<ArmorItem> EARTHSHINE_ALLOY_HELMET = ITEMS.register("earthshine_alloy_helmet",
+            () -> new ArmorItem(ModArmorMaterials.EARTHSHINE_ALLOY_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(25))));
+    public static final DeferredItem<ArmorItem> EARTHSHINE_ALLOY_CHESTPLATE = ITEMS.register("earthshine_alloy_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.EARTHSHINE_ALLOY_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(25))));
+    public static final DeferredItem<ArmorItem> EARTHSHINE_ALLOY_LEGGINGS = ITEMS.register("earthshine_alloy_leggings",
+            () -> new ArmorItem(ModArmorMaterials.EARTHSHINE_ALLOY_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(25))));
+    public static final DeferredItem<ArmorItem> EARTHSHINE_ALLOY_BOOTS = ITEMS.register("earthshine_alloy_boots",
+            () -> new ArmorItem(ModArmorMaterials.EARTHSHINE_ALLOY_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(25))));
+    public static final DeferredItem<Item> EARTHSHINE_ALLOY_HORSE_ARMOR = ITEMS.register("earthshine_alloy_horse_armor",
+            () -> new AnimalArmorItem(ModArmorMaterials.EARTHSHINE_ALLOY_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
+                    false, new Item.Properties().stacksTo(1)));
+
     ////RAINBOW
     public static final DeferredItem<ArmorItem> RAINBOW_HELMET = ITEMS.register("rainbow_helmet",
             () -> new ArmorItem(ModArmorMaterials.RAINBOW_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
@@ -190,6 +214,27 @@ public class ModItems {
                     false, new Item.Properties().stacksTo(1)));
 
     ///////////////////// TOOLS //////////////////////////
+    //EARTHSHINE
+    public static final DeferredItem<SwordItem> EARTHSHINE_ALLOY_SWORD = ITEMS.register("earthshine_alloy_sword",
+            () -> new SwordItem(ModToolTiers.EARTHSHINE_ALLOY, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.EARTHSHINE_ALLOY, 5, -2.4f))));
+    public static final DeferredItem<PickaxeItem> EARTHSHINE_ALLOY_PICKAXE = ITEMS.register("earthshine_alloy_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.EARTHSHINE_ALLOY, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.EARTHSHINE_ALLOY, 1.0F, -2.8f))));
+    public static final DeferredItem<ShovelItem> EARTHSHINE_ALLOY_SHOVEL = ITEMS.register("earthshine_alloy_shovel",
+            () -> new ShovelItem(ModToolTiers.EARTHSHINE_ALLOY, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.EARTHSHINE_ALLOY, 1.5F, -3.0f))));
+    public static final DeferredItem<AxeItem> EARTHSHINE_ALLOY_AXE = ITEMS.register("earthshine_alloy_axe",
+            () -> new AxeItem(ModToolTiers.EARTHSHINE_ALLOY, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.EARTHSHINE_ALLOY, 6.0F, -3.2f))));
+    public static final DeferredItem<HoeItem> EARTHSHINE_ALLOY_HOE = ITEMS.register("earthshine_alloy_hoe",
+            () -> new HoeItem(ModToolTiers.EARTHSHINE_ALLOY, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.EARTHSHINE_ALLOY, 0F, -3.0f))));
+
+    public static final DeferredItem<HammerItem> EARTHSHINE_ALLOY_HAMMER = ITEMS.register("earthshine_alloy_hammer",
+            () -> new HammerItem(ModToolTiers.EARTHSHINE_ALLOY, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.EARTHSHINE_ALLOY, 7F, -3.5f))));
+
     //RAINBOW
     public static final DeferredItem<SwordItem> RAINBOW_SWORD = ITEMS.register("rainbow_sword",
             () -> new SwordItem(ModToolTiers.RAINBOW, new Item.Properties()

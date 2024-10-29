@@ -148,7 +148,21 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.RAW_RAINBOW.get())
                 .unlockedBy("has_raw_rainbow", has(ModItems.RAW_RAINBOW.get())).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EARTHSHINE_ALLOY_DUST.get())
+                .pattern("AB ")
+                .pattern("CD ")
+                .pattern("   ")
+                .define('A', ModItems.ROSIUM_DUST.get())
+                .define('B', ModItems.LUNARITE_DUST.get())
+                .define('C', ModItems.DREAMSTONE_DUST.get())
+                .define('D', ModItems.RAINBOW_DUST.get())
+                .unlockedBy("has_rainbow", has(ModItems.EARTHSHINE_ALLOY_DUST)).save(recipeOutput);
+
         ///////////////// SMELTING ///////////////////
+
+        List<ItemLike> EARTHSHINE_SMELTABLES = List.of(ModItems.EARTHSHINE_ALLOY_DUST);
+        oreBlasting(recipeOutput, EARTHSHINE_SMELTABLES, RecipeCategory.MISC, ModItems.EARTHSHINE_ALLOY_INGOT.get(), 0.25f, 100,
+                "earthshine_alloy_ingot");
 
         List<ItemLike> RAINBOW_SMELTABLES = List.of(ModItems.RAW_RAINBOW,
                 ModBlocks.RAINBOW_ORE, ModItems.RAINBOW_DUST);
@@ -203,6 +217,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', Items.STICK.asItem())
                 .unlockedBy("has_rosium", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EARTHSHINE_ALLOY_PICKAXE.get())
+                .pattern("BBB")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.EARTHSHINE_ALLOY_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_earthshine_alloy", has(ModItems.EARTHSHINE_ALLOY_INGOT)).save(recipeOutput);
+
         ///////////////// SHOVEL /////////////////////
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_SHOVEL.get())
                 .pattern(" B ")
@@ -235,6 +257,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', ModItems.RAINBOW_INGOT.get())
                 .define('A', Items.STICK.asItem())
                 .unlockedBy("has_rainbow", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EARTHSHINE_ALLOY_SHOVEL.get())
+                .pattern(" B ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.EARTHSHINE_ALLOY_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_earthshine_alloy", has(ModItems.EARTHSHINE_ALLOY_INGOT)).save(recipeOutput);
 
         ///////////////// AXE ////////////////////////
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_AXE.get())
@@ -269,6 +299,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', Items.STICK.asItem())
                 .unlockedBy("has_rainbow", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EARTHSHINE_ALLOY_AXE.get())
+                .pattern("BB ")
+                .pattern("BA ")
+                .pattern(" A ")
+                .define('B', ModItems.EARTHSHINE_ALLOY_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_earthshine_alloy", has(ModItems.EARTHSHINE_ALLOY_INGOT)).save(recipeOutput);
+
         ///////////////// HOE ////////////////////////
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_HOE.get())
                 .pattern("BB ")
@@ -302,6 +340,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', Items.STICK.asItem())
                 .unlockedBy("has_rainbow", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EARTHSHINE_ALLOY_HOE.get())
+                .pattern("BB ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('B', ModItems.EARTHSHINE_ALLOY_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_earthshine_alloy", has(ModItems.EARTHSHINE_ALLOY_INGOT)).save(recipeOutput);
+
         ///////////////// SWORD //////////////////////
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_SWORD.get())
                 .pattern(" B ")
@@ -334,6 +380,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', ModItems.RAINBOW_INGOT.get())
                 .define('A', Items.STICK.asItem())
                 .unlockedBy("has_rainbow", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EARTHSHINE_ALLOY_SWORD.get())
+                .pattern(" B ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('B', ModItems.EARTHSHINE_ALLOY_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_earthshine_alloy", has(ModItems.EARTHSHINE_ALLOY_INGOT)).save(recipeOutput);
 
 
         ///////////////// HAMMER /////////////////////
@@ -369,7 +423,40 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', Items.STICK.asItem())
                 .unlockedBy("has_rainbow", has(ModItems.RAINBOW_INGOT)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EARTHSHINE_ALLOY_HAMMER.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern(" A ")
+                .define('B', ModItems.EARTHSHINE_ALLOY_INGOT.get())
+                .define('A', Items.STICK.asItem())
+                .unlockedBy("has_earthshine_alloy", has(ModItems.EARTHSHINE_ALLOY_INGOT)).save(recipeOutput);
+
         ///////////////// ARMORS //////////////////////
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EARTHSHINE_ALLOY_HELMET.get())
+                .pattern("BBB")
+                .pattern("B B")
+                .pattern("   ")
+                .define('B', ModItems.EARTHSHINE_ALLOY_INGOT.get())
+                .unlockedBy("has_earthshine_alloy", has(ModItems.EARTHSHINE_ALLOY_INGOT)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EARTHSHINE_ALLOY_CHESTPLATE.get())
+                .pattern("B B")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModItems.EARTHSHINE_ALLOY_INGOT.get())
+                .unlockedBy("has_earthshine_alloy", has(ModItems.EARTHSHINE_ALLOY_INGOT)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EARTHSHINE_ALLOY_LEGGINGS.get())
+                .pattern("BBB")
+                .pattern("B B")
+                .pattern("B B")
+                .define('B', ModItems.EARTHSHINE_ALLOY_INGOT.get())
+                .unlockedBy("has_earthshine_alloy", has(ModItems.EARTHSHINE_ALLOY_INGOT)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EARTHSHINE_ALLOY_BOOTS.get())
+                .pattern("   ")
+                .pattern("B B")
+                .pattern("B B")
+                .define('B', ModItems.EARTHSHINE_ALLOY_INGOT.get())
+                .unlockedBy("has_earthshine_alloy", has(ModItems.EARTHSHINE_ALLOY_INGOT)).save(recipeOutput);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSIUM_HELMET.get())
                 .pattern("BBB")
                 .pattern("B B")

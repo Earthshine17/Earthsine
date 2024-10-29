@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_earthshine_alloy_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "esmod:earthshine_alloy_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "esmod:earthshine_alloy_ingot_from_blasting_earthshine_alloy_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_earthshine_alloy_dust"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "esmod:earthshine_alloy_ingot_from_blasting_earthshine_alloy_dust"
+    ]
+  }
+}

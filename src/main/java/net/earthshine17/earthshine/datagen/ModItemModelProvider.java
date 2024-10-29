@@ -77,6 +77,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.LUNARITE_INGOT.get());
         basicItem(ModItems.DREAMSTONE_INGOT.get());
         basicItem(ModItems.RAINBOW_INGOT.get());
+        basicItem(ModItems.EARTHSHINE_ALLOY_INGOT.get());
 
         //////////////////// RAW /////////////////////
         basicItem(ModItems.RAW_ROSIUM.get());
@@ -84,11 +85,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RAW_DREAMSTONE.get());
         basicItem(ModItems.RAW_RAINBOW.get());
 
-        //////////////////// RAW /////////////////////
+        //////////////////// DUST /////////////////////
         basicItem(ModItems.ROSIUM_DUST.get());
         basicItem(ModItems.LUNARITE_DUST.get());
         basicItem(ModItems.DREAMSTONE_DUST.get());
         basicItem(ModItems.RAINBOW_DUST.get());
+        basicItem(ModItems.EARTHSHINE_ALLOY_DUST.get());
 
         //////////////////// NUGGETS /////////////////////.
         basicItem(ModItems.ROSIUM_NUGGET.get());
@@ -96,6 +98,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.DREAMSTONE_NUGGET.get());
 
         /////////////////// ARMORS ///////////////////////
+        trimmedArmorItem(ModItems.EARTHSHINE_ALLOY_HELMET);
+        trimmedArmorItem(ModItems.EARTHSHINE_ALLOY_CHESTPLATE);
+        trimmedArmorItem(ModItems.EARTHSHINE_ALLOY_LEGGINGS);
+        trimmedArmorItem(ModItems.EARTHSHINE_ALLOY_BOOTS);
+        basicItem(ModItems.EARTHSHINE_ALLOY_HORSE_ARMOR.get());
+
         trimmedArmorItem(ModItems.RAINBOW_HELMET);
         trimmedArmorItem(ModItems.RAINBOW_CHESTPLATE);
         trimmedArmorItem(ModItems.RAINBOW_LEGGINGS);
@@ -148,6 +156,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.DREAMSTONE_AXE);
         handheldItem(ModItems.DREAMSTONE_HOE);
         handheldItem(ModItems.DREAMSTONE_HAMMER);
+
+        handheldItem(ModItems.EARTHSHINE_ALLOY_SWORD);
+        handheldItem(ModItems.EARTHSHINE_ALLOY_PICKAXE);
+        handheldItem(ModItems.EARTHSHINE_ALLOY_SHOVEL);
+        handheldItem(ModItems.EARTHSHINE_ALLOY_AXE);
+        handheldItem(ModItems.EARTHSHINE_ALLOY_HOE);
+        handheldItem(ModItems.EARTHSHINE_ALLOY_HAMMER);
 
         //////////////// SMITHING ///////////////
         basicItem(ModItems.ES_SMITHING_TEMPLATE.get());

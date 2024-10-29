@@ -26,6 +26,10 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_DREAMSTONE_TOOL = createTag("needs_dreamstone_tool");
         public static final TagKey<Block> INCORRECT_FOR_DREAMSTONE_TOOL = createTag("incorrect_for_dreamstone_tool");
 
+        public static final TagKey<Block> NEEDS_EARTHSHINE_ALLOY_TOOL = createTag("needs_earthshine_alloy_tool");
+        public static final TagKey<Block> INCORRECT_FOR_EARTHSHINE_ALLOY_TOOL = createTag("incorrect_for_earthshine_alloy_tool");
+
+
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(ESMod.MOD_ID, name));
         }

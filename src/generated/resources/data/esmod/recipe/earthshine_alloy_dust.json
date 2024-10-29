@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "esmod:rosium_dust"
+    },
+    "B": {
+      "item": "esmod:lunarite_dust"
+    },
+    "C": {
+      "item": "esmod:dreamstone_dust"
+    },
+    "D": {
+      "item": "esmod:rainbow_dust"
+    }
+  },
+  "pattern": [
+    "AB ",
+    "CD ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "esmod:earthshine_alloy_dust"
+  }
+}

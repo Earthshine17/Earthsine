@@ -1,10 +1,10 @@
-// 1.21.1	2024-10-23T10:49:18.5028675	Tags for minecraft:item mod id esmod
+// 1.21.1	2024-10-28T10:11:59.319057	Tags for minecraft:item mod id esmod
 c908b877f605133cf0de117054eabda60b7b33ca data/esmod/tags/item/transformable_items.json
-b7ab7daa61fd6c6265315dd481f998bf10151693 data/minecraft/tags/item/axes.json
-da7bdaca43e96f6d17bc21546db3fbe134f4f77f data/minecraft/tags/item/hoes.json
-b2b636c69246c33879a9a7e119030e6afa681866 data/minecraft/tags/item/pickaxes.json
-d5ceca84438e0ca80db70984241deee2de163c66 data/minecraft/tags/item/shovels.json
-5b25580d8f715b4cbb2ed5f625b63367e1db1d5e data/minecraft/tags/item/swords.json
-1208c22db6dceb02eba67fb313f25e3a7363de5c data/minecraft/tags/item/trimmable_armor.json
+948a9feab639ae1341f788f5f14817aa72e46d5e data/minecraft/tags/item/axes.json
+88f33430c0fc99e9012f78a36d0374426871c5e6 data/minecraft/tags/item/hoes.json
+c5cb416285b161af5f1a759c057e266a5eefeade data/minecraft/tags/item/pickaxes.json
+2d473a9272c947d02e7fb40b735fa14be80e0f4e data/minecraft/tags/item/shovels.json
+4eb0c27d7c5dd93798d88424e98dda0c6c052eba data/minecraft/tags/item/swords.json
+fc53ef806b89aa35ac8815d4863ad8062cc959ea data/minecraft/tags/item/trimmable_armor.json
 d6e82537a42e29467cb8f9b6f7231c338fcb0035 data/minecraft/tags/item/trim_materials.json
 02a819f86a208e06b1f8e6608bf600ca76bb6926 data/minecraft/tags/item/trim_templates.json

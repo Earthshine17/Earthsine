@@ -39,11 +39,20 @@
   "item.esmod.lunarite_dust": "Lunarite Dust",
   "item.esmod.dreamstone_dust": "Dreamstone Dust",
   "item.esmod.rainbow_dust": "Rainbow Dust",
+  "item.esmod.earthshine_alloy_dust": "Earthshine Alloy Dust",
 
   "item.esmod.rosium_ingot": "Rosium Ingot",
   "item.esmod.lunarite_ingot": "Lunarite Ingot",
   "item.esmod.dreamstone_ingot": "Dreamstone Ingot",
   "item.esmod.rainbow_ingot": "Rainbow Ingot",
+  "item.esmod.earthshine_alloy_ingot": "Earthshine Alloy Ingot",
+
+  "item.esmod.earthshine_alloy_helmet": "Earthshine Alloy Helmet",
+  "item.esmod.earthshine_alloy_chestplate": "Earthshine Alloy Chestplate",
+  "item.esmod.earthshine_alloy_leggings": "Earthshine Alloy Leggings",
+  "item.esmod.earthshine_alloy_boots": "Earthshine Alloy Boots",
+  "item.esmod.earthshine_alloy_hammer": "Earthshine Alloy Hammer",
+  "item.esmod.earthshine_alloy_horse_armor": "Earthshine Alloy Horse Armor",
 
   "item.esmod.rosium_sword": "Rosium Sword",
   "item.esmod.rosium_pickaxe": "Rosium Pickaxe",
@@ -92,6 +101,12 @@
   "item.esmod.rainbow_boots": "Rainbow Boots",
   "item.esmod.rainbow_hammer": "Rainbow Hammer",
   "item.esmod.rainbow_horse_armor": "Rainbow Horse Armor",
+
+  "item.esmod.earthshine_alloy_sword": "Earthshine Alloy Sword",
+  "item.esmod.earthshine_alloy_pickaxe": "Earthshine Alloy Pickaxe",
+  "item.esmod.earthshine_alloy_shovel": "Earthshine Alloy Shovel",
+  "item.esmod.earthshine_alloy_axe": "Earthshine Alloy Axe",
+  "item.esmod.earthshine_alloy_hoe": "Earthshine Alloy Hoe",
 
   "item.esmod.es_armor_trim_smithing_template": "ES Trim Template",
 

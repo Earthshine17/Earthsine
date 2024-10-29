@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "earthshine_alloy_ingot",
+  "ingredient": {
+    "item": "esmod:earthshine_alloy_dust"
+  },
+  "result": {
+    "count": 1,
+    "id": "esmod:earthshine_alloy_ingot"
+  }
+}

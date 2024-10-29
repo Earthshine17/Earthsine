@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-28T08:53:34.3557093	Registries
+// 1.21.1	2024-10-28T09:43:15.106336	Registries
 7496031da013007824f937e2bc23ac44349851ec data/esmod/neoforge/biome_modifier/add_dreamstone_ore.json
 424e87b37517e8fdd15ee4a05a03565be80b0f9d data/esmod/neoforge/biome_modifier/add_lunarite_ore.json
 da18501a0b20199346b786aced651b172405043e data/esmod/neoforge/biome_modifier/add_rainbow_ore.json
@@ -7,7 +7,7 @@ da18501a0b20199346b786aced651b172405043e data/esmod/neoforge/biome_modifier/add_
 35dce23e6ed03a9cc2ae21edd369ac1dc21c7b5d data/esmod/worldgen/configured_feature/overworld_lunarite_ore.json
 5b61f15a478ad02c361bb73b9646969767f1382c data/esmod/worldgen/configured_feature/overworld_rainbow_ore.json
 4dfebe769e2459cb1a90a071813f19ebaaf5d3cc data/esmod/worldgen/configured_feature/overworld_rosium_ore.json
-e37880b603936ebd2df2ce46d5cc38c9ccdcf15e data/esmod/worldgen/placed_feature/dreamstone_ore.json
-f0cd91289299c7ebb8649a0e3352d05c2d2c01df data/esmod/worldgen/placed_feature/lunarite_ore.json
-73e59f81e24fc46e31871ff69b3eb61daca8c8cd data/esmod/worldgen/placed_feature/rainbow_ore.json
-e292b5329b309d736a61b5cc989133542a8dd77d data/esmod/worldgen/placed_feature/rosium_ore.json
+752e3eee576b4adf439dab67c7a7d6889400be3c data/esmod/worldgen/placed_feature/dreamstone_ore.json
+236f9197a94d0566bd5860e8631dab66f68c557f data/esmod/worldgen/placed_feature/lunarite_ore.json
+01f3821f9caca22e8be60365e49479f19ed9aabb data/esmod/worldgen/placed_feature/rainbow_ore.json
+0e29deb2666d7e1bcc8ae92ffdbfab0b19b62b12 data/esmod/worldgen/placed_feature/rosium_ore.json
